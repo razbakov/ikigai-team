@@ -24,8 +24,7 @@ if (page.value) {
 <template>
   <div>
     <div v-if="page" class="guide-content">
-      <h1 class="text-3xl font-bold mb-2">{{ page.title }}</h1>
-      <p v-if="page.description" class="text-lg text-muted-foreground mb-8">{{ page.description }}</p>
+      <h1 class="text-3xl font-bold mb-8">{{ page.title }}</h1>
       <div class="prose-custom">
         <ContentRenderer :value="page" />
       </div>
