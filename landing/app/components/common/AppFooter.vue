@@ -3,10 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
         <div class="flex items-center gap-2 text-sm text-muted-foreground">
-          <Icon name="lucide:compass" class="w-4 h-4" />
-          <span>Ikigai Team</span>
-          <span class="mx-1">&middot;</span>
-          <span>Built with Claude Code</span>
+          <span>Made by <a href="https://razbakov.com" target="_blank" rel="noopener noreferrer" class="hover:text-foreground transition-colors">Alösha</a></span>
         </div>
         <div class="flex items-center gap-4">
           <a
