@@ -35,9 +35,9 @@ onUnmounted(() => {
             <span class="text-primary">Dream Team</span>
           </h1>
           <p class="mt-6 text-lg text-muted-foreground max-w-xl">
-            6 AI agents with GTD, OKRs, Level 10 Life, and S3 governance built in.
-            Not just agents — a complete system for running your life and projects.
-            So you can focus on your ikigai.
+            Start with a coaching session, not a config file. Discover your purpose,
+            set your strategy, build your rhythm — then let 6 AI agents handle the rest.
+            Level 10 Life, GROW, OKRs, GTD, and S3 governance are all built in.
           </p>
           <div class="mt-8 flex flex-wrap gap-4">
             <NuxtLink

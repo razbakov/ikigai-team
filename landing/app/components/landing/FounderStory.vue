@@ -15,20 +15,19 @@
             exhausted to think about strategy.
           </p>
           <p>
-            Your inbox is overflowing. Your side projects are collecting dust. You know you
-            should be creating content, reviewing your OKRs, following up with contacts, and
-            taking care of your health — but there are only so many hours in a day.
+            You have heard of OKRs, GTD, Level 10 Life, Sociocracy. You know they work.
+            But who has time to learn all that, set it up, and actually stick with it?
           </p>
           <p>
-            What if you had a team? Not employees to manage, but AI agents that each own a
-            domain. A chief of staff who runs your daily standup. A CTO who reviews PRs. A
-            content lead who publishes for you. A coach who watches your energy levels.
+            What if someone sat down with you, helped you figure out what matters, turned
+            it into a plan, and then handled the execution? Not a course to watch. Not a
+            template to fill out. A team that meets you where you are and teaches you
+            as you go.
           </p>
           <p class="text-foreground font-medium">
-            That is what Ikigai Team gives you — not just agents, but a complete operating
-            system with GTD, OKRs, coaching, and governance already wired in. You do not
-            have to research these methodologies or figure out how to connect them.
-            It is all there. Just use it.
+            That is Ikigai Team. It starts with a conversation, not a configuration.
+            Sage helps you find your direction. Marco turns it into strategy. Maya makes
+            it happen every day. You focus on your ikigai — the thing only you can do.
           </p>
         </div>
       </div>

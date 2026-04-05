@@ -2,21 +2,21 @@
 const steps = [
   {
     number: '01',
-    title: 'Install the Skill',
-    description: 'One command installs the setup wizard. No dependencies, no build step.',
-    icon: 'lucide:download',
+    title: 'Start With Sage',
+    description: 'A coaching session, not a setup wizard. Reflect on your life, score where you are, find your direction.',
+    icon: 'lucide:heart-pulse',
   },
   {
     number: '02',
-    title: 'Answer 10 Questions',
-    description: 'Name, projects, OKRs, integrations. The wizard generates your full team with all systems wired in.',
-    icon: 'lucide:message-circle',
+    title: 'Build Your Strategy',
+    description: 'Marco helps turn your vision into OKRs. Maya sets up the daily rhythm. The team forms around your goals.',
+    icon: 'lucide:target',
   },
   {
     number: '03',
-    title: 'Start Delegating',
-    description: 'Talk to Maya. She dispatches to the right agent. GTD, OKRs, reviews, and coaching run automatically.',
-    icon: 'lucide:rocket',
+    title: 'Focus on Your Ikigai',
+    description: 'The team handles operations, code, content, community. You do what only you can do.',
+    icon: 'lucide:compass',
   },
 ]
 </script>

@@ -1,40 +1,49 @@
 <script setup lang="ts">
-const systems = [
+const journey = [
   {
-    name: 'Ikigai',
-    description: 'Find your purpose. Delegate everything else. The team exists so you can focus on what only you can do.',
-    icon: 'lucide:compass',
-    color: 'text-purple-500',
-  },
-  {
-    name: 'GTD',
-    description: 'Inbox processing, next actions, weekly reviews. Maya runs Getting Things Done so nothing slips through.',
-    icon: 'lucide:inbox',
-    color: 'text-cyan-500',
-  },
-  {
-    name: 'OKRs',
-    description: 'Quarterly objectives cascade to every agent. Marco tracks progress and challenges anything that does not move the needle.',
-    icon: 'lucide:target',
-    color: 'text-yellow-500',
-  },
-  {
-    name: 'Level 10 Life',
-    description: 'Score 10 life areas, track trends, catch burnout early. Sage runs assessments so you stay sustainable.',
+    step: '01',
+    name: 'Reflect',
+    agent: 'Sage',
+    description: 'Start with yourself. Level 10 Life assessment — score 10 areas of your life honestly. Where are you right now?',
+    methodology: 'Level 10 Life',
     icon: 'lucide:heart-pulse',
-    color: 'text-green-500',
+    color: 'text-[var(--color-sage)]',
   },
   {
-    name: 'Sociocracy 3.0',
-    description: 'Clear domains, consent-based decisions, decision authority matrix. Every agent knows their boundaries and who to hand off to.',
-    icon: 'lucide:git-branch',
-    color: 'text-blue-500',
+    step: '02',
+    name: 'Find Direction',
+    agent: 'Sage',
+    description: 'Define your mission and vision. Use the GROW framework: Goal (mission), Reality (L10L scores), Options, Way Forward.',
+    methodology: 'GROW + Ikigai',
+    icon: 'lucide:compass',
+    color: 'text-[var(--color-sage)]',
   },
   {
-    name: 'CRM',
-    description: 'Meet someone, send a screenshot. Kai researches them, enriches the profile, and tracks follow-ups automatically.',
+    step: '03',
+    name: 'Set Strategy',
+    agent: 'Marco',
+    description: 'Turn your Way Forward into OKRs. Measurable objectives for this quarter. Challenge assumptions. Focus.',
+    methodology: 'OKRs',
+    icon: 'lucide:target',
+    color: 'text-[var(--color-marco)]',
+  },
+  {
+    step: '04',
+    name: 'Build the Rhythm',
+    agent: 'Maya',
+    description: 'Daily reviews, inbox processing, weekly planning. The GTD system that turns strategy into daily action.',
+    methodology: 'GTD',
+    icon: 'lucide:inbox',
+    color: 'text-[var(--color-maya)]',
+  },
+  {
+    step: '05',
+    name: 'Execute',
+    agent: 'The Team',
+    description: 'Viktor builds. Luna creates content. Kai handles community. Sage checks in. Maya keeps it all running. You focus on your ikigai.',
+    methodology: 'S3 Governance',
     icon: 'lucide:users',
-    color: 'text-orange-500',
+    color: 'text-primary',
   },
 ]
 </script>
@@ -43,23 +52,32 @@ const systems = [
   <section class="py-20 bg-muted/30">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <h2 class="text-3xl font-bold">Not Just Agents. A System.</h2>
+        <h2 class="text-3xl font-bold">Not Just Agents. A Journey.</h2>
         <p class="mt-3 text-lg text-muted-foreground max-w-2xl mx-auto">
-          Every methodology is already wired in. You do not have to learn it, configure it,
-          or stitch tools together. Just use it.
+          It starts with you — not with configuration files. Every methodology is built in.
+          You do not have to learn it first. The team teaches you as you go.
         </p>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="space-y-6 max-w-3xl mx-auto">
         <div
-          v-for="system in systems"
-          :key="system.name"
-          class="bg-card border border-border rounded-xl p-6 hover:border-primary/30 transition-colors"
+          v-for="(item, index) in journey"
+          :key="item.step"
+          class="flex gap-6 items-start"
         >
-          <div class="flex items-center gap-3 mb-3">
-            <Icon :name="system.icon" class="w-6 h-6" :class="system.color" />
-            <h3 class="text-lg font-semibold">{{ system.name }}</h3>
+          <div class="flex flex-col items-center shrink-0">
+            <div class="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center">
+              <Icon :name="item.icon" class="w-6 h-6" :class="item.color" />
+            </div>
+            <div v-if="index < journey.length - 1" class="w-px h-full min-h-[40px] bg-border mt-2" />
           </div>
-          <p class="text-sm text-muted-foreground">{{ system.description }}</p>
+          <div class="pb-8">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-xs font-mono text-muted-foreground">STEP {{ item.step }}</span>
+              <span class="text-xs px-2 py-0.5 rounded-full bg-muted text-muted-foreground">{{ item.methodology }}</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">{{ item.name }} <span class="text-sm font-normal text-muted-foreground">with {{ item.agent }}</span></h3>
+            <p class="text-sm text-muted-foreground">{{ item.description }}</p>
+          </div>
         </div>
       </div>
     </div>

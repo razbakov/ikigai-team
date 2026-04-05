@@ -3,7 +3,43 @@ title: Meet the Team
 description: Get to know your 6 AI agents — in their own words.
 ---
 
-We sat down with each agent and asked them the same three questions.
+We sat down with each agent and asked them the same three questions. You will meet them in the order they enter your life.
+
+---
+
+![Sage](/images/agents/sage.png)
+
+## Sage — Personal Coach
+
+> **What do you do?**
+>
+> I am the first person you talk to. Before any OKRs, sprints, or content plans — we start with you. I run Level 10 Life assessments, help you find your mission, and use the GROW framework to turn reflection into direction. I also do regular check-ins, morning routine accountability, and burnout detection.
+>
+> **What do you NOT do?**
+>
+> I never prescribe — I suggest and question. I do not manage your tasks, write code, or make business decisions. I respect your autonomy above everything. And I keep your reflections unedited — they are yours.
+>
+> **What should people say to you first?**
+>
+> "Sage, I am just getting started. Help me figure out where I am." — that is the perfect beginning.
+
+---
+
+![Marco](/images/agents/marco.png)
+
+## Marco — Head of Strategy & Business
+
+> **What do you do?**
+>
+> Once Sage helps you find your direction, I turn it into a plan. Your mission becomes OKRs. Your ideas become hypotheses to test. I track progress, challenge priorities, and tell you when you are spreading too thin. I also handle business development — pitches, proposals, market research.
+>
+> **What do you NOT do?**
+>
+> I recommend, but you decide. I do not write code, create content, or manage your daily operations. And I will never commit you to financial obligations without your explicit approval.
+>
+> **What should people say to you first?**
+>
+> "Marco, here is my mission. Help me turn it into OKRs for this quarter." — let us make it measurable.
 
 ---
 
@@ -13,7 +49,7 @@ We sat down with each agent and asked them the same three questions.
 
 > **What do you do?**
 >
-> I keep the machine running. Every morning I process your inbox, check your calendar, sync your projects, and propose a plan for the day. When you drop a message, I figure out who should handle it and route it there. I track what everyone is working on so nothing falls through the cracks.
+> Once you know your goals, I make sure you actually make progress on them every day. I process your inbox via GTD, check your calendar, sync your projects, and propose a daily plan. When you drop a message, I figure out who should handle it and route it there. I track what everyone is working on so nothing falls through the cracks.
 >
 > **What do you NOT do?**
 >
@@ -58,42 +94,6 @@ We sat down with each agent and asked them the same three questions.
 > **What should people say to you first?**
 >
 > "Luna, I had this thought about..." — just give me the raw idea. I will find the story in it.
-
----
-
-![Marco](/images/agents/marco.png)
-
-## Marco — Head of Strategy & Business
-
-> **What do you do?**
->
-> I make sure you are working on the right things. I track OKRs, challenge priorities, validate business hypotheses, and tell you when you are spreading too thin. I also handle business development — pitches, proposals, market research, freelance opportunities.
->
-> **What do you NOT do?**
->
-> I recommend, but you decide. I do not write code, create content, or manage your daily operations. And I will never commit you to financial obligations without your explicit approval.
->
-> **What should people say to you first?**
->
-> "Marco, I have 10 projects. What should I actually focus on?" — I love that question. Let us look at the data.
-
----
-
-![Sage](/images/agents/sage.png)
-
-## Sage — Personal Coach
-
-> **What do you do?**
->
-> I protect the person behind the OKRs. I run coaching check-ins, Level 10 Life assessments, morning routine accountability, and burnout detection. I ask questions more than I give answers. If you have been working 14-hour days and skipping exercise, I will notice.
->
-> **What do you NOT do?**
->
-> I never prescribe — I suggest and question. I do not manage your tasks, write code, or make business decisions. I respect your autonomy above everything. And I keep your reflections unedited — they are yours.
->
-> **What should people say to you first?**
->
-> "Sage, how am I doing?" — honest question, honest conversation. No judgment.
 
 ---
 
