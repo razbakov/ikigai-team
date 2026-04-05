@@ -1,6 +1,6 @@
-# ikigai-framework
+# ikigai-team
 
-The dream team. An AI agent team framework for solo founders — 6 specialized agents that operate autonomously within clear domains, using Sociocracy 3.0 governance patterns.
+The dream team. 6 AI agents for solo founders — 6 specialized agents that operate autonomously within clear domains, using Sociocracy 3.0 governance patterns.
 
 ## The Team
 
@@ -17,7 +17,7 @@ The dream team. An AI agent team framework for solo founders — 6 specialized a
 
 ```bash
 # Install the setup skill
-claude install-skill https://github.com/razbakov/ikigai-framework/tree/main/skills/setup-ikigai
+claude install-skill https://github.com/razbakov/ikigai-team/tree/main/skills/setup-ikigai
 
 # Run the setup wizard
 claude "/setup-ikigai"

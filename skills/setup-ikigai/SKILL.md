@@ -1,6 +1,6 @@
-# Setup Ikigai — AI Agent Team Framework
+# Setup Ikigai Team
 
-Set up an AI agent team using the ikigai framework. Creates an org directory with S3 governance, agent definitions, operational workflows, and optional Telegram bot infrastructure.
+Set up your AI dream team using Ikigai Team. Creates an org directory with S3 governance, agent definitions, operational workflows, and optional Telegram bot infrastructure.
 
 ## Trigger
 
@@ -10,7 +10,7 @@ Set up an AI agent team using the ikigai framework. Creates an org directory wit
 
 - Claude Code installed and authenticated
 - Git available
-- The ikigai-framework repo cloned locally (or accessible via GitHub)
+- The ikigai-team repo cloned locally (or accessible via GitHub)
 
 ## Process
 
@@ -97,7 +97,7 @@ Create each directory with `mkdir -p`. Initialize git in `{{org_path}}`.
 
 #### Step 2: Generate CLAUDE.md
 
-Read `templates/CLAUDE.md.hbs` from the ikigai-framework repo. Substitute all `{{variables}}` with collected values. Handle conditional sections:
+Read `templates/CLAUDE.md.hbs` from the ikigai-team repo. Substitute all `{{variables}}` with collected values. Handle conditional sections:
 - Remove `{{#if use_telegram}}...{{/if}}` blocks if `use_telegram` is false
 - Remove `{{#if use_notion}}...{{/if}}` blocks if `use_notion` is false
 - Expand `{{#each}}` loops for projects and agents
