@@ -186,6 +186,8 @@ When generating files, read these references for the exact structures:
 - `references/scripts/telegram-bots.py` — multi-agent Telegram bot runner (tmux, self-healing, watchdog). Adapt the AGENTS dict and paths for the user.
 - `references/scripts/telegram-send.py` — send messages via agent bots. Adapt AGENT_TOKEN_MAP for the user.
 - `references/scripts/telegram-bots.sh` — start/stop shell wrapper. Works as-is.
+- `references/scripts/telegram-envoy-bot.py` — Envoy bot: connect any Telegram group chat to an org's agent, plus outbound agenda-driven conversations via Claude API. Adapt ORG_PATHS and PERSONAS.
+- `references/scripts/telegram-send-envoy.py` — send messages via the Envoy bot.
 
 Lines marked `# CUSTOMIZE` need to be adapted to the user's agent names and org path.
 
