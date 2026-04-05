@@ -18,26 +18,23 @@ Set up my Ikigai Team using https://github.com/razbakov/ikigai-team
 
 ## Your Journey
 
-The setup is not a one-time config wizard. It is a guided journey that starts with you.
+The setup is a guided journey that starts with you. Go at your own pace — skip anything, come back anytime.
 
-**Session 1 — Meet Sage (30 min)**
-Start with a coaching session. Sage helps you reflect on where you are in life right now. You do a Level 10 Life assessment — scoring 10 areas from 1 to 10. No rush. Be honest.
+**Meet Sage** — your personal coach. Sage helps you reflect on where you are in life right now. You can do a Level 10 Life assessment, explore what matters to you, or just have an honest conversation.
 
-**Session 2 — Find Your Direction (30 min)**
-Sage helps you define your mission and vision. What matters to you? What would you build if you had time? You use the GROW framework: your mission is the Goal, your L10L scores are Reality. Together you explore Options and find a Way Forward.
+**Find Your Direction** — when you are ready, Sage uses the GROW framework to help you find your mission. Your scores are Reality. Your vision is the Goal. Together you explore Options and find a Way Forward.
 
-**Session 3 — Meet Marco (30 min)**
-Your Way Forward becomes OKRs. Marco helps you turn your vision into measurable objectives and key results for this quarter. He challenges your priorities and helps you focus.
+**Meet Marco** — your strategist. He turns your direction into OKRs — measurable goals for this quarter. He will challenge you. That is his job.
 
-**Session 4 — Meet Maya (20 min)**
-Now that you know what matters, Maya sets up the daily system. GTD inbox processing, daily reviews, weekly planning. The tactics that make the strategy real.
+**Meet Maya** — your chief of staff. She sets up the daily rhythm: inbox processing, daily reviews, weekly planning. The system that makes the strategy real.
 
-**After that — the team is yours.**
-Viktor builds. Luna creates content. Kai handles community. Sage checks in regularly. Maya keeps it all running. You focus on your ikigai.
+**After that — the team is yours.** Viktor builds. Luna creates content. Kai handles community. Sage checks in regularly. Maya keeps it all running. You focus on your ikigai.
 
-## Take Your Time
+## Go at Your Own Pace
 
-Each session saves your progress. You do not have to finish everything in one sitting. The system will schedule your next session and pick up where you left off.
+Every step is optional. Skip what does not feel right. Come back when it does. Your progress is saved automatically — just open the folder in Claude Desktop and say "let's continue."
+
+Some people do everything in one afternoon. Others spread it across a week. Both are fine.
 
 ## Next Steps
 
