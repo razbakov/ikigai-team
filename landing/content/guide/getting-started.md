@@ -24,7 +24,6 @@ Open your ikigai folder in Claude Desktop. Talk to Maya — she will dispatch to
 
 ## Next Steps
 
-- [The Team](/guide/agents) — meet Maya, Viktor, Luna, Marco, Sage, and Kai
-- [Skills](/guide/skills) — installable workflows for each agent
-- [Telegram Bots](/guide/telegram-bots) — message agents from your phone
-- [S3 Governance](/guide/s3-governance) — how decisions and domains are structured
+- [Meet the Team](/guide/agents) — get to know each agent in their own words
+- [Use Cases](/guide/use-cases) — real examples of what to ask
+- [Daily Life](/guide/daily-reviews) — what a typical day looks like with your team
