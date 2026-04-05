@@ -5,8 +5,8 @@ description: Install the setup skill, answer 10 questions, meet your team.
 
 ## Prerequisites
 
-1. **Claude Code** — install via `npm install -g @anthropic-ai/claude-code`
-2. **An Anthropic API key** — Claude Code prompts you on first run
+1. **Claude Pro or Max subscription** — [claude.ai/pricing](https://claude.ai/pricing)
+2. **Claude Code** — install via `npm install -g @anthropic-ai/claude-code`
 
 ## Setup (2 minutes)
 
