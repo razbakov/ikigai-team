@@ -48,6 +48,12 @@ const sections = [
     to: '/guide/telegram-bots',
   },
   {
+    title: 'Envoy',
+    description: 'Let your agents talk to other people on your behalf.',
+    icon: 'lucide:send',
+    to: '/guide/envoy',
+  },
+  {
     title: 'Projects & Orgs',
     description: 'Set up projects or scale them into autonomous organizations.',
     icon: 'lucide:folder-tree',

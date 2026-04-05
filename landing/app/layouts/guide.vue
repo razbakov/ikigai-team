@@ -57,6 +57,13 @@
             Telegram
           </NuxtLink>
           <NuxtLink
+            to="/guide/envoy"
+            class="block px-3 py-2 rounded-md text-sm hover:bg-muted transition-colors"
+            active-class="bg-muted text-primary font-medium"
+          >
+            Envoy
+          </NuxtLink>
+          <NuxtLink
             to="/guide/projects"
             class="block px-3 py-2 rounded-md text-sm hover:bg-muted transition-colors"
             active-class="bg-muted text-primary font-medium"
