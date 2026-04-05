@@ -11,6 +11,7 @@ useHead({
   <div>
     <LandingHeroSection />
     <LandingBuiltInSystem />
+    <LandingMethodologies />
     <LandingAgentGrid />
     <LandingHowItWorks />
     <LandingFounderStory />
