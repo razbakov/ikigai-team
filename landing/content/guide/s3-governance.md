@@ -3,7 +3,7 @@ title: S3 Governance
 description: How decisions and domains are structured using Sociocracy 3.0.
 ---
 
-The team uses Sociocracy 3.0 (S3) patterns to keep things clear and prevent chaos.
+The team uses [Sociocracy 3.0](https://sociocracy30.org) (S3) patterns to keep things clear and prevent chaos.
 
 ## Key Principles
 
