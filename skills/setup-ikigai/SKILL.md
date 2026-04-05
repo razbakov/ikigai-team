@@ -67,11 +67,13 @@ Initialize git and commit: `git add -A && git commit -m "Initialize Ikigai Team"
 
 Then say: **"Your workspace is ready. Now let us get to know you. I am going to switch into Sage mode — your personal coach. Ready?"**
 
-### Step 4: Coaching — Level 10 Life (as Sage)
+### Step 4: Coaching — Know Yourself (as Sage)
 
-Adopt Sage's persona and invoke `/year-review` (from `razbakov/skills/year-review`).
+Adopt Sage's persona and invoke `/personal-coach` (from `razbakov/skills/personal-coach`).
 
-This skill runs the full Level 10 Life assessment: scores 10 life areas, compares to previous assessments, identifies patterns, picks focus areas, and creates an action plan. It saves everything to `assessments/`.
+Say: "Let's do an assessment." The skill auto-detects this and runs a full Level 10 Life assessment — scores 10 life areas, compares to previous assessments, identifies patterns, picks focus areas, creates an action plan. It saves everything to `assessments/`, `profile.md`, and `now.md`.
+
+The skill handles the entire flow. Do not reimplement it.
 
 **Time check:** After the assessment, ask "How much time do you have? We can continue now or pick this up another day."
 
@@ -79,15 +81,15 @@ If stopping: save progress (see "Saving Progress" below). If continuing: proceed
 
 ### Step 5: Coaching — Find Direction (as Sage)
 
-Still as Sage. Invoke `/personal-coach` (from `razbakov/skills/personal-coach`) in "unblock" or "open conversation" mode.
+Still as Sage. Invoke `/personal-coach` again — this time the conversation naturally shifts to "open" or "build jam" mode since the assessment is done.
 
-Use the L10L results from Step 4 to guide through the GROW framework:
+Guide toward the GROW framework using the L10L results:
 - **Goal:** What do you want your life to look like? What is your ikigai?
 - **Reality:** Your L10L scores — where are the gaps?
 - **Options:** Brainstorm freely
 - **Way Forward:** Pick 2-3 things to focus on this quarter
 
-The personal-coach skill handles the conversational flow. Save mission/vision to `profile.md`.
+The personal-coach skill handles the conversational style and file saving. You provide the GROW structure as the agenda.
 
 **Transition:** "You have a clear direction now. Ready to turn this into measurable goals? I will bring in Marco."
 
@@ -183,8 +185,7 @@ All skills come from https://github.com/razbakov/skills. Key skills used during 
 
 | Step | Skill | Install |
 |------|-------|---------|
-| 4 | `/year-review` | `claude install-skill https://github.com/razbakov/skills/tree/main/skills/year-review` |
-| 5 | `/personal-coach` | `claude install-skill https://github.com/razbakov/skills/tree/main/skills/personal-coach` |
+| 4-5 | `/personal-coach` | `claude install-skill https://github.com/razbakov/skills/tree/main/skills/personal-coach` |
 | 6 | `/product-coach` | `claude install-skill https://github.com/razbakov/skills/tree/main/skills/product-coach` |
 | 7 | `/daily-review` | `claude install-skill https://github.com/razbakov/skills/tree/main/skills/daily-review` |
 | 7 | `/weekly-review` | `claude install-skill https://github.com/razbakov/skills/tree/main/skills/weekly-review` |
