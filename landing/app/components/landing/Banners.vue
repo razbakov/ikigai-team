@@ -12,10 +12,10 @@
           <span class="text-emerald-600 dark:text-emerald-400 font-mono font-bold text-xs">&lt;LBD&gt;</span>
         </div>
         <div class="flex-1 min-w-0">
-          <h3 class="font-semibold group-hover:text-primary transition-colors">Learn By Doing Academy</h3>
-          <p class="text-sm text-muted-foreground">Learn to build with AI agents. Live sessions, mentorship, and a community of builders.</p>
+          <h3 class="font-semibold group-hover:text-primary transition-colors">Built at Learn By Doing Academy</h3>
+          <p class="text-sm text-muted-foreground">Want to build your own AI agent team? Live sessions, mentorship, and real projects.</p>
         </div>
-        <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">Learn more &rarr;</span>
+        <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">Learn to build yours &rarr;</span>
       </a>
     </div>
   </section>
