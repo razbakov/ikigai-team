@@ -1,88 +1,46 @@
 ---
 title: Customization
-description: Advanced customization — create custom agents, write your own skills, and extend the system.
+description: Rename agents, add projects, adjust boundaries — make it yours.
 ---
 
-Ikigai Team is designed to be extended. Here is how to customize every aspect of your setup.
+Everything is plain markdown files. Edit anything.
 
-## Custom Agent Names and Roles
+## Rename Agents
 
-The simplest customization is renaming agents and adjusting their roles. In your configuration files, you can:
+During setup, choose your own names. Or edit `.claude/agents/<name>.md` later — change the `name` field and rename the file. Update references in other agent files.
 
-- Give each agent a name that resonates with you
-- Adjust their role description to match your specific domain
-- Assign them to specific projects instead of all projects
+## Add Projects
 
-## Creating a New Agent
-
-To add a 7th (or 8th, or 9th) agent:
-
-1. Open `initiatives/agent-team.md`
-2. Add a new agent section following the existing format
-3. Define their S3 domain, personality, and responsibilities
-4. Reference them in `CLAUDE.md` under the Rules section
-
-### Agent Definition Template
+Add to the project registry in `CLAUDE.md`:
 
 ```markdown
-### AgentName — Role Title
-
-- **Personality:** MBTI Type
-- **S3 Domain:** Domain Description
-- **Icon:** lucide:icon-name
-
-**Description:** What this agent does and why.
-
-**Responsibilities:**
-- First core responsibility
-- Second core responsibility
-- Third core responsibility
+| my-new-project | `~/Projects/my-new-project` |
 ```
 
-## Writing Custom Skills
+For projects with their own org, create a project agent — a thin router that hands off to the project's coordinator.
 
-Create a `SKILL.md` file in `.claude/skills/<skill-slug>/`:
+## Adjust OKRs
 
-```markdown
----
-name: Skill Name
-slug: skill-slug
-version: 1.0.0
----
+Edit the `## Current OKRs` section in each agent's file. Agents check their KRs before taking action.
 
-# Skill Name
+## Change Boundaries
 
-Description of what this skill does.
+Edit the `## Boundaries` section. Keep it symmetric — if agent A says "hand off to B", make sure B's domain covers it.
 
-## Trigger
-When and how this skill activates.
+## Add Skills
 
-## Process
-Step-by-step instructions.
+Install from the [skills repo](https://github.com/razbakov/skills):
 
-## Inputs
-What the skill needs.
-
-## Outputs
-What the skill produces.
-
-## Quality Checklist
-- [ ] Verification items
+```bash
+claude install-skill https://github.com/razbakov/skills/tree/main/skills/<skill-name>
 ```
 
-## Advanced: Scheduled Skills
+Then add it to the agent's `## Available Skills` section.
 
-Some skills work best on a schedule:
+## Add Integrations
 
-- **Daily Review** — Every morning at 6am
-- **Weekly Review** — Every Saturday morning
-- **Inbox Processing** — Three times per day
-
-Use Claude Code's scheduled tasks feature to automate these.
-
-## Tips for Effective Customization
-
-1. **Start simple** — Use the defaults first, then customize based on experience
-2. **One change at a time** — Adjust one thing, observe the results, then iterate
-3. **Document your changes** — Add comments explaining why you customized something
-4. **Share what works** — If you create a great custom skill, consider sharing it with the community
+Configure MCP servers in Claude Desktop settings for:
+- **Notion** — task boards, databases
+- **GitHub** — issues, PRs, code review
+- **Google Calendar** — scheduling
+- **Figma** — design implementation

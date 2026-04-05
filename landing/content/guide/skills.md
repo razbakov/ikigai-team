@@ -1,54 +1,35 @@
 ---
-title: Skills System
-description: Discover how skills work — reusable workflows your agents can execute on demand.
+title: Skills
+description: Installable workflows that give each agent real capabilities.
 ---
 
-Skills are the building blocks of what your agents can do. Each skill is a documented, repeatable workflow with clear triggers, inputs, processes, and outputs.
+Skills are reusable workflows your agents invoke with `/skill-name`. They are installed from the [skills repo](https://github.com/razbakov/skills).
 
-## Anatomy of a Skill
+## How It Works
 
-Every skill file (`SKILL.md`) contains:
+```bash
+claude install-skill https://github.com/razbakov/skills/tree/main/skills/daily-review
+```
 
-### Trigger
-How the skill gets activated — manually via a slash command (`/daily-review`), on a schedule, or through another agent's handoff.
+Then in any conversation:
+```
+/daily-review
+```
 
-### Process
-A step-by-step procedure the agent follows:
-1. Gather context
-2. Analyze requirements and constraints
-3. Execute the core task
-4. Verify quality
-5. Report results
+Maya runs it. The skill orchestrates inbox processing, calendar review, and plan creation automatically.
 
-### Inputs and Outputs
-What the skill needs to start and what it produces when done.
+## Skills by Agent
 
-### Quality Checklist
-A verification checklist to ensure the output meets standards.
+**Maya** — daily-review, weekly-review, process-inbox, scrum, suggest-tasks, dispatch-approved
 
-## Skill Categories
+**Viktor** — github-issue, sprint-planning, run-sprint, pr-review-responder, estimation, dependency-vuln-report
 
-Skills are organized into six categories, one per agent domain:
+**Luna** — content-seo-agent, viral-threads, social-post, youtube-metadata-updater, brand-poster, image-from-gemini
 
-| Category | Agent | Example Skills |
-|----------|-------|---------------|
-| Operations | Maya | Daily Review, Inbox Processing, Weekly Review |
-| Engineering | Viktor | Code Review, Deploy, Tech Debt Audit |
-| Content | Luna | Blog Post, Social Media, SEO Audit |
-| Strategy | Marco | OKR Review, Market Research, Pricing |
-| Personal | Sage | Check-in, Journal Prompt, Energy Audit |
-| Community | Kai | Contact Enrichment, Follow-up, Event Planning |
+**Marco** — product-coach, user-story, sales-bizdev-agent, freelance-job-hunt, storyteller-tactics, portfolio-hiring-analysis
 
-## Skill Complexity
+**Sage** — personal-coach, year-review
 
-Each skill has a complexity rating:
+**Kai** — agent-browser (contact research)
 
-- **Simple** — Can be completed in a few minutes with minimal context
-- **Moderate** — Requires gathering context and making judgment calls
-- **Advanced** — Multi-step process that may span multiple sessions
-
-## Creating Custom Skills
-
-You can create your own skills by adding a `SKILL.md` file to the `.claude/skills/<skill-slug>/` directory. Follow the template structure and include all sections (trigger, process, inputs, outputs, quality checklist).
-
-Browse the [Skills Catalog](/skills) to see all available skills.
+Browse all available skills on the [Skills page](/skills).
