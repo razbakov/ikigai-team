@@ -22,20 +22,7 @@ The wizard asks ~10 questions: your name, projects, OKRs, and optional integrati
 
 ## Start Using It
 
-```bash
-cd ~/Orgs/your-org
-claude --agent maya
-```
-
-Talk to Maya. She dispatches to the right agent. Or go direct:
-
-```bash
-claude --agent viktor    # Engineering tasks
-claude --agent luna      # Content creation
-claude --agent marco     # Strategy questions
-claude --agent sage      # Coaching check-in
-claude --agent kai       # Contact processing
-```
+Open your ikigai folder in Claude Desktop. Talk to Maya — she will dispatch to the right agent.
 
 ## Next Steps
 
