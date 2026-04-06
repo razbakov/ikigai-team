@@ -31,15 +31,6 @@ The journey:
 3. **Maya** sets up the daily rhythm — GTD inbox processing, reviews, planning
 4. **The team** handles the rest — code, content, community. You focus on your ikigai.
 
-## Repository
-
-This is a Claude Code skill repo. The main deliverable is `skills/setup-ikigai/`.
-
-```
-skills/setup-ikigai/    # The setup skill (self-contained with references)
-landing/                # Website (landing page, guides)
-```
-
 ## License
 
 MIT
