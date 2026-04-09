@@ -1,0 +1,26 @@
+{
+  "name": "ikigai-team-video",
+  "version": "1.0.0",
+  "description": "Ikigai Team promotional video built with Remotion",
+  "main": "src/index.ts",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts IkigaiTeam out/ikigai-team.mp4",
+    "still": "remotion still src/index.ts IkigaiTeam out/still.png"
+  },
+  "keywords": [],
+  "author": "Alex Razbakov",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.445",
+    "@remotion/cli": "^4.0.445",
+    "@remotion/renderer": "^4.0.445",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.445",
+    "typescript": "^6.0.2"
+  }
+}
