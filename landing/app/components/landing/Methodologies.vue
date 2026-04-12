@@ -1,18 +1,30 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const { path } = usePath()
 
-const methodKeys = ['ikigai', 'level10life', 'grow', 'okrs', 'gtd', 's3', 'crm', 'scrum'] as const
-
-const methodMeta = [
-  { icon: 'lucide:compass', color: 'text-purple-500' },
-  { icon: 'lucide:heart-pulse', color: 'text-green-500' },
-  { icon: 'lucide:route', color: 'text-pink-500' },
-  { icon: 'lucide:target', color: 'text-yellow-500' },
-  { icon: 'lucide:inbox', color: 'text-cyan-500' },
-  { icon: 'lucide:git-branch', color: 'text-blue-500' },
-  { icon: 'lucide:users', color: 'text-orange-500' },
-  { icon: 'lucide:list-checks', color: 'text-red-500' },
+const personalMethods = [
+  { key: 'ikigai', icon: 'lucide:compass', color: 'text-purple-500' },
+  { key: 'level10life', icon: 'lucide:heart-pulse', color: 'text-green-500' },
+  { key: 'grow', icon: 'lucide:route', color: 'text-pink-500' },
+  { key: 'okrs', icon: 'lucide:target', color: 'text-yellow-500' },
+  { key: 'gtd', icon: 'lucide:inbox', color: 'text-cyan-500' },
+  { key: 's3', icon: 'lucide:git-branch', color: 'text-blue-500' },
+  { key: 'crm', icon: 'lucide:users', color: 'text-orange-500' },
+  { key: 'scrum', icon: 'lucide:list-checks', color: 'text-red-500' },
 ]
+
+const workMethods = [
+  { key: 'onboarding', icon: 'lucide:user-plus', color: 'text-purple-500' },
+  { key: 'roles', icon: 'lucide:shield', color: 'text-green-500' },
+  { key: 'knowledge', icon: 'lucide:book-open', color: 'text-pink-500' },
+  { key: 'okrs', icon: 'lucide:target', color: 'text-yellow-500' },
+  { key: 'gtd', icon: 'lucide:inbox', color: 'text-cyan-500' },
+  { key: 's3', icon: 'lucide:git-branch', color: 'text-blue-500' },
+  { key: 'crm', icon: 'lucide:users', color: 'text-orange-500' },
+  { key: 'scrum', icon: 'lucide:list-checks', color: 'text-red-500' },
+]
+
+const methods = computed(() => path.value === 'work' ? workMethods : personalMethods)
 </script>
 
 <template>
@@ -26,13 +38,13 @@ const methodMeta = [
       </div>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div
-          v-for="(key, index) in methodKeys"
-          :key="key"
+          v-for="method in methods"
+          :key="method.key"
           class="bg-card border border-border rounded-xl p-5 hover:border-primary/30 transition-colors"
         >
-          <Icon :name="methodMeta[index].icon" class="w-6 h-6 mb-3" :class="methodMeta[index].color" />
-          <h3 class="font-semibold mb-1">{{ t(`methodologies.items.${key}.name`) }}</h3>
-          <p class="text-xs text-muted-foreground">{{ t(`methodologies.items.${key}.description`) }}</p>
+          <Icon :name="method.icon" class="w-6 h-6 mb-3" :class="method.color" />
+          <h3 class="font-semibold mb-1">{{ t(`methodologies.items.${method.key}.name`) }}</h3>
+          <p class="text-xs text-muted-foreground">{{ t(`methodologies.items.${method.key}.description`) }}</p>
         </div>
       </div>
     </div>

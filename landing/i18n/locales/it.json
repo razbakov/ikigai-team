@@ -45,7 +45,7 @@
     },
     "step": "PASSO",
     "with": "con",
-    "steps": {
+    "personalSteps": {
       "reflect": {
         "name": "Riflettere",
         "description": "Inizia da te stesso. Valutazione Level 10 Life — valuta onestamente 10 aree della tua vita. Dove sei adesso?",
@@ -70,6 +70,33 @@
         "name": "Eseguire",
         "description": "Viktor costruisce. Luna crea contenuti. Kai gestisce la community. Sage fa il punto. Maya tiene tutto in funzione. Tu ti concentri sul tuo ikigai.",
         "methodology": "S3 Governance"
+      }
+    },
+    "workSteps": {
+      "install": {
+        "name": "Installare",
+        "description": "Un prompt configura il tuo workspace aziendale con contesto condiviso, regole di governance e impostazioni di team.",
+        "methodology": "Setup Workspace"
+      },
+      "configure": {
+        "name": "Configurare i ruoli",
+        "description": "Definisci ruoli, domini e autorita decisionale. Ogni membro del team ottiene uno spazio personalizzato.",
+        "methodology": "S3 Governance"
+      },
+      "onboard": {
+        "name": "Onboarding del team",
+        "description": "I membri del team incollano un prompt e atterrano in un ambiente pronto. Ruolo, progetti e strumenti preconfigurati.",
+        "methodology": "Onboarding"
+      },
+      "workflows": {
+        "name": "Attivare i workflow",
+        "description": "Riunioni, standup, follow-up e reportistica funzionano automaticamente. Il sistema cattura il contesto tra le sessioni.",
+        "methodology": "GTD + Scrum"
+      },
+      "scale": {
+        "name": "Scalare",
+        "description": "Aggiungi nuovi membri, ruoli o progetti. La base cresce con la tua organizzazione.",
+        "methodology": "Miglioramento Continuo"
       }
     }
   },
@@ -108,6 +135,18 @@
       "scrum": {
         "name": "Scrum",
         "description": "Standup quotidiani, pianificazione sprint, retrospettive. Maya riporta i risultati di ogni agente e segnala i blocchi."
+      },
+      "onboarding": {
+        "name": "Onboarding",
+        "description": "Un prompt, workspace pronto. I nuovi membri del team sono produttivi dal primo giorno con ruolo, progetti e strumenti preconfigurati."
+      },
+      "roles": {
+        "name": "Gestione ruoli",
+        "description": "Definizioni di ruolo chiare, confini di dominio e autorita decisionale. Ogni persona conosce le proprie responsabilita."
+      },
+      "knowledge": {
+        "name": "Base di conoscenza",
+        "description": "Contesto aziendale, note di riunione e decisioni vengono catturati e condivisi. Nessun contesto perso tra le sessioni."
       }
     }
   },

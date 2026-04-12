@@ -45,7 +45,7 @@
     },
     "step": "SCHRITT",
     "with": "mit",
-    "steps": {
+    "personalSteps": {
       "reflect": {
         "name": "Reflektieren",
         "description": "Beginne bei dir selbst. Level 10 Life Assessment — bewerte 10 Lebensbereiche ehrlich. Wo stehst du gerade?",
@@ -70,6 +70,33 @@
         "name": "Umsetzen",
         "description": "Viktor baut. Luna erstellt Inhalte. Kai kummert sich um die Community. Sage checkt ein. Maya halt alles am Laufen. Du konzentrierst dich auf dein Ikigai.",
         "methodology": "S3 Governance"
+      }
+    },
+    "workSteps": {
+      "install": {
+        "name": "Installieren",
+        "description": "Ein Prompt richtet deinen Firmen-Workspace mit gemeinsamen Kontext, Governance-Regeln und Team-Standards ein.",
+        "methodology": "Workspace Setup"
+      },
+      "configure": {
+        "name": "Rollen konfigurieren",
+        "description": "Definiere Rollen, Domanen und Entscheidungsbefugnisse. Jedes Teammitglied bekommt einen personalisierten Workspace.",
+        "methodology": "S3 Governance"
+      },
+      "onboard": {
+        "name": "Team einarbeiten",
+        "description": "Teammitglieder fugen einen Prompt ein und landen in einer arbeitsbereiten Umgebung. Rolle, Projekte und Tools sind vorkonfiguriert.",
+        "methodology": "Onboarding"
+      },
+      "workflows": {
+        "name": "Workflows aktivieren",
+        "description": "Meetings, Standups, Follow-ups und Reporting laufen automatisch. Das System erfasst Kontext uber Sessions hinweg.",
+        "methodology": "GTD + Scrum"
+      },
+      "scale": {
+        "name": "Skalieren",
+        "description": "Neue Teammitglieder, Rollen oder Projekte hinzufugen. Die Grundlage wachst mit deiner Organisation.",
+        "methodology": "Kontinuierliche Verbesserung"
       }
     }
   },
@@ -108,6 +135,18 @@
       "scrum": {
         "name": "Scrum",
         "description": "Tagliche Standups, Sprint-Planung, Retrospektiven. Maya berichtet, was jeder Agent erreicht hat und markiert Blocker."
+      },
+      "onboarding": {
+        "name": "Onboarding",
+        "description": "Ein Prompt, fertiger Workspace. Neue Teammitglieder sind ab dem ersten Tag produktiv mit vorkonfigurierter Rolle, Projekten und Tools."
+      },
+      "roles": {
+        "name": "Rollenverwaltung",
+        "description": "Klare Rollendefinitionen, Domainengrenzen und Entscheidungsbefugnisse. Jeder kennt seine Verantwortlichkeiten."
+      },
+      "knowledge": {
+        "name": "Wissensbasis",
+        "description": "Firmenkontext, Meeting-Notizen und Entscheidungen werden erfasst und geteilt. Kein verlorener Kontext zwischen Sessions."
       }
     }
   },

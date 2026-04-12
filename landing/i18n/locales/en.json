@@ -49,7 +49,7 @@
     },
     "step": "STEP",
     "with": "with",
-    "steps": {
+    "personalSteps": {
       "reflect": {
         "name": "Reflect",
         "description": "Start with yourself. Level 10 Life assessment — score 10 areas of your life honestly. Where are you right now?",
@@ -74,6 +74,33 @@
         "name": "Execute",
         "description": "Viktor builds. Luna creates content. Kai handles community. Sage checks in. Maya keeps it all running. You focus on your ikigai.",
         "methodology": "S3 Governance"
+      }
+    },
+    "workSteps": {
+      "install": {
+        "name": "Install",
+        "description": "One prompt sets up your company workspace with shared context, governance rules, and team defaults.",
+        "methodology": "Workspace Setup"
+      },
+      "configure": {
+        "name": "Configure Roles",
+        "description": "Define roles, domains, and decision authority. Each team member gets a personalized workspace with their responsibilities.",
+        "methodology": "S3 Governance"
+      },
+      "onboard": {
+        "name": "Onboard the Team",
+        "description": "Team members paste one prompt and land in a ready-to-work environment. Role, projects, and tools are pre-configured.",
+        "methodology": "Onboarding"
+      },
+      "workflows": {
+        "name": "Activate Workflows",
+        "description": "Meetings, standups, follow-ups, and reporting run automatically. The system captures context across sessions.",
+        "methodology": "GTD + Scrum"
+      },
+      "scale": {
+        "name": "Scale",
+        "description": "Add new team members, roles, or projects. The foundation grows with your organization. Consistent workflows, individual workspaces.",
+        "methodology": "Continuous Improvement"
       }
     }
   },
@@ -112,6 +139,18 @@
       "scrum": {
         "name": "Scrum",
         "description": "Daily standups, sprint planning, retrospectives. Maya reports what each agent accomplished and flags blockers."
+      },
+      "onboarding": {
+        "name": "Onboarding",
+        "description": "One prompt, ready workspace. New team members are productive from day one with role, projects, and tools pre-configured."
+      },
+      "roles": {
+        "name": "Role Management",
+        "description": "Clear role definitions, domain boundaries, and decision authority. Every person knows their responsibilities."
+      },
+      "knowledge": {
+        "name": "Knowledge Base",
+        "description": "Company context, meeting notes, and decisions are captured and shared. No more lost context between sessions."
       }
     }
   },

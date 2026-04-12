@@ -45,7 +45,7 @@
     },
     "step": "PASSO",
     "with": "com",
-    "steps": {
+    "personalSteps": {
       "reflect": {
         "name": "Refletir",
         "description": "Comece por voce mesmo. Avaliacao Level 10 Life — pontue 10 areas da sua vida honestamente. Onde voce esta agora?",
@@ -70,6 +70,33 @@
         "name": "Executar",
         "description": "Viktor constroi. Luna cria conteudo. Kai cuida da comunidade. Sage faz o acompanhamento. Maya mantem tudo funcionando. Voce foca no seu ikigai.",
         "methodology": "S3 Governance"
+      }
+    },
+    "workSteps": {
+      "install": {
+        "name": "Instalar",
+        "description": "Um prompt configura seu workspace corporativo com contexto compartilhado, regras de governanca e configuracoes de equipe.",
+        "methodology": "Setup de Workspace"
+      },
+      "configure": {
+        "name": "Configurar funcoes",
+        "description": "Defina funcoes, dominios e autoridade de decisao. Cada membro da equipe recebe um workspace personalizado.",
+        "methodology": "S3 Governance"
+      },
+      "onboard": {
+        "name": "Integrar a equipe",
+        "description": "Membros da equipe colam um prompt e chegam a um ambiente pronto. Funcao, projetos e ferramentas pre-configurados.",
+        "methodology": "Onboarding"
+      },
+      "workflows": {
+        "name": "Ativar workflows",
+        "description": "Reunioes, standups, follow-ups e relatorios rodam automaticamente. O sistema captura contexto entre sessoes.",
+        "methodology": "GTD + Scrum"
+      },
+      "scale": {
+        "name": "Escalar",
+        "description": "Adicione novos membros, funcoes ou projetos. A base cresce com sua organizacao.",
+        "methodology": "Melhoria Continua"
       }
     }
   },
@@ -108,6 +135,18 @@
       "scrum": {
         "name": "Scrum",
         "description": "Standups diarios, planejamento de sprints, retrospectivas. Maya reporta as conquistas de cada agente e sinaliza bloqueios."
+      },
+      "onboarding": {
+        "name": "Onboarding",
+        "description": "Um prompt, workspace pronto. Novos membros da equipe sao produtivos desde o primeiro dia com funcao, projetos e ferramentas pre-configurados."
+      },
+      "roles": {
+        "name": "Gestao de funcoes",
+        "description": "Definicoes claras de funcoes, limites de dominio e autoridade de decisao. Cada pessoa conhece suas responsabilidades."
+      },
+      "knowledge": {
+        "name": "Base de conhecimento",
+        "description": "Contexto da empresa, notas de reuniao e decisoes sao capturados e compartilhados. Sem mais contexto perdido entre sessoes."
       }
     }
   },
