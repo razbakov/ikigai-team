@@ -13,7 +13,8 @@
   "hero": {
     "title": "Your AI",
     "titleHighlight": "Dream Team",
-    "subtitle": "Open your preferred harness, paste one prompt, and start. No setup wizard, no docs detour, no extra decisions.",
+    "subtitle": "Open your preferred AI tool, paste one prompt, and start. No setup wizard, no docs detour, no extra decisions.",
+    "ariaTools": "Supported AI tools",
     "step2": "2. Paste this prompt",
     "copied": "Copied",
     "copyPrompt": "Copy prompt",

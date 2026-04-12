@@ -13,7 +13,8 @@
   "hero": {
     "title": "Sua equipe de IA",
     "titleHighlight": "dos sonhos",
-    "subtitle": "Abra seu harness preferido, cole um prompt e comece. Sem assistente de configuracao, sem desvios pela documentacao, sem decisoes extras.",
+    "subtitle": "Abra sua ferramenta de IA preferida, cole um prompt e comece. Sem assistente de configuracao, sem desvios pela documentacao, sem decisoes extras.",
+    "ariaTools": "Ferramentas de IA suportadas",
     "step2": "2. Cole este prompt",
     "copied": "Copiado",
     "copyPrompt": "Copiar prompt",

@@ -13,7 +13,8 @@
   "hero": {
     "title": "Dein KI-",
     "titleHighlight": "Traumteam",
-    "subtitle": "Offne deinen bevorzugten Harness, fuge einen Prompt ein und starte. Kein Setup-Assistent, kein Umweg uber Docs, keine zusatzlichen Entscheidungen.",
+    "subtitle": "Offne dein bevorzugtes KI-Werkzeug, fuge einen Prompt ein und starte. Kein Setup-Assistent, kein Umweg uber Docs, keine zusatzlichen Entscheidungen.",
+    "ariaTools": "Unterstutzte KI-Werkzeuge",
     "step2": "2. Fuge diesen Prompt ein",
     "copied": "Kopiert",
     "copyPrompt": "Prompt kopieren",

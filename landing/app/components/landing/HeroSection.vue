@@ -119,7 +119,7 @@ async function copyPrompt() {
             <div class="pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-background via-background/85 to-transparent z-10" />
             <div
               class="overflow-x-auto px-6 pb-2 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
-              aria-label="Supported harnesses"
+              :aria-label="t('hero.ariaTools')"
             >
               <div class="flex min-w-max flex-nowrap justify-start gap-2">
                 <button

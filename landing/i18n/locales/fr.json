@@ -13,7 +13,8 @@
   "hero": {
     "title": "Votre equipe IA",
     "titleHighlight": "de reve",
-    "subtitle": "Ouvrez votre harness prefere, collez un prompt et commencez. Pas d'assistant de configuration, pas de detour par la doc, pas de decisions supplementaires.",
+    "subtitle": "Ouvrez votre outil IA prefere, collez un prompt et commencez. Pas d'assistant de configuration, pas de detour par la doc, pas de decisions supplementaires.",
+    "ariaTools": "Outils IA compatibles",
     "step2": "2. Collez ce prompt",
     "copied": "Copie",
     "copyPrompt": "Copier le prompt",

@@ -13,7 +13,8 @@
   "hero": {
     "title": "Tu equipo de IA",
     "titleHighlight": "de ensueno",
-    "subtitle": "Abre tu harness preferido, pega un prompt y comienza. Sin asistente de configuracion, sin desvios por documentacion, sin decisiones extra.",
+    "subtitle": "Abre tu herramienta de IA preferida, pega un prompt y comienza. Sin asistente de configuracion, sin desvios por documentacion, sin decisiones extra.",
+    "ariaTools": "Herramientas de IA compatibles",
     "step2": "2. Pega este prompt",
     "copied": "Copiado",
     "copyPrompt": "Copiar prompt",
