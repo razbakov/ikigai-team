@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { t } = useI18n()
 const localePath = useLocalePath()
+const { path } = usePath()
 </script>
 
 <template>
@@ -8,10 +9,10 @@ const localePath = useLocalePath()
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <Icon name="lucide:compass" class="w-12 h-12 text-primary mx-auto mb-6" />
       <h2 class="text-3xl sm:text-4xl font-bold mb-4">
-        {{ t('cta.title') }}
+        {{ t(`cta.${path}.title`) }}
       </h2>
       <p class="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-        {{ t('cta.subtitle') }}
+        {{ t(`cta.${path}.subtitle`) }}
       </p>
       <div class="flex flex-wrap gap-4 justify-center">
         <NuxtLink

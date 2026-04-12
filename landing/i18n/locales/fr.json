@@ -11,9 +11,16 @@
     "documentation": "Documentation"
   },
   "hero": {
-    "title": "Votre equipe IA",
-    "titleHighlight": "de reve",
-    "subtitle": "Ouvrez votre outil IA prefere, collez un prompt et commencez. Pas d'assistant de configuration, pas de detour par la doc, pas de decisions supplementaires.",
+    "personal": {
+      "title": "Votre equipe IA",
+      "titleHighlight": "de reve",
+      "subtitle": "Ouvrez votre outil IA prefere, collez un prompt et commencez. Pas d'assistant de configuration, pas de detour par la doc, pas de decisions supplementaires."
+    },
+    "work": {
+      "title": "Votre espace de travail",
+      "titleHighlight": "propulse par l'IA",
+      "subtitle": "Un prompt configure un environnement pret a l'emploi avec le contexte de l'entreprise, les workflows d'equipe et les presets de role."
+    },
     "ariaTools": "Outils IA compatibles",
     "step2": "2. Collez ce prompt",
     "copied": "Copie",
@@ -28,8 +35,14 @@
     }
   },
   "journey": {
-    "title": "Pas seulement des agents. Un voyage.",
-    "subtitle": "Ca commence par vous — pas par des fichiers de configuration. Chaque methodologie est integree. Vous n'avez pas besoin de l'apprendre d'abord. L'equipe vous enseigne en chemin.",
+    "personal": {
+      "title": "Pas seulement des agents. Un voyage.",
+      "subtitle": "Ca commence par vous — pas par des fichiers de configuration. Chaque methodologie est integree. Vous n'avez pas besoin de l'apprendre d'abord. L'equipe vous enseigne en chemin."
+    },
+    "work": {
+      "title": "Pas seulement des outils. Un systeme.",
+      "subtitle": "Ca commence par le contexte de votre entreprise — pas par des modeles vierges. Workflows, parametres et gouvernance sont precharges. Votre equipe est productive des le premier jour."
+    },
     "step": "ETAPE",
     "with": "avec",
     "steps": {
@@ -157,38 +170,77 @@
     }
   },
   "howItWorks": {
-    "title": "Comment ca marche",
-    "subtitle": "Trois etapes vers votre equipe dirigeante propulsee par l'IA.",
     "step": "ETAPE",
-    "steps": {
-      "startWithSage": {
-        "title": "Commencez avec Sage",
-        "description": "Une session de coaching, pas un assistant de configuration. Reflechissez a votre vie, evaluez ou vous en etes, trouvez votre direction."
-      },
-      "buildStrategy": {
-        "title": "Construisez votre strategie",
-        "description": "Marco aide a transformer votre vision en OKRs. Maya met en place le rythme quotidien. L'equipe se forme autour de vos objectifs."
-      },
-      "focusOnIkigai": {
-        "title": "Concentrez-vous sur votre Ikigai",
-        "description": "L'equipe gere les operations, le code, le contenu, la communaute. Vous faites ce que vous seul pouvez faire."
+    "personal": {
+      "title": "Comment ca marche",
+      "subtitle": "Trois etapes vers votre equipe dirigeante propulsee par l'IA.",
+      "steps": {
+        "startWithSage": {
+          "title": "Commencez avec Sage",
+          "description": "Une session de coaching, pas un assistant de configuration. Reflechissez a votre vie, evaluez ou vous en etes, trouvez votre direction."
+        },
+        "buildStrategy": {
+          "title": "Construisez votre strategie",
+          "description": "Marco aide a transformer votre vision en OKRs. Maya met en place le rythme quotidien. L'equipe se forme autour de vos objectifs."
+        },
+        "focusOnIkigai": {
+          "title": "Concentrez-vous sur votre Ikigai",
+          "description": "L'equipe gere les operations, le code, le contenu, la communaute. Vous faites ce que vous seul pouvez faire."
+        }
+      }
+    },
+    "work": {
+      "title": "Comment ca marche",
+      "subtitle": "Trois etapes vers un espace de travail IA productif pour votre equipe.",
+      "steps": {
+        "startWithSage": {
+          "title": "Installer l'espace de travail",
+          "description": "Un prompt configure le contexte de l'entreprise, les roles par defaut et les workflows partages. Aucune configuration manuelle."
+        },
+        "buildStrategy": {
+          "title": "Integrer votre equipe",
+          "description": "Chaque membre de l'equipe obtient un espace personnalise avec son role, ses projets et ses outils preconfigures."
+        },
+        "focusOnIkigai": {
+          "title": "Se concentrer sur le travail",
+          "description": "Reunions, suivis, recherche et rapports se font automatiquement. Votre equipe se concentre sur l'essentiel."
+        }
       }
     }
   },
   "founderStory": {
-    "title": "Ca vous dit quelque chose ?",
-    "p1": "Vous etes un fondateur solo qui porte toutes les casquettes. CEO le lundi, developpeur le mardi, redacteur le mercredi, support le jeudi, et le vendredi vous etes trop epuise pour penser a la strategie.",
-    "p2": "Vous avez entendu parler des OKRs, GTD, Level 10 Life, Sociocratie. Vous savez que ca marche. Mais qui a le temps d'apprendre tout ca, de le mettre en place et de s'y tenir ?",
-    "p3": "Et si quelqu'un s'asseyait avec vous, vous aidait a comprendre ce qui compte, le transformait en plan et prenait en charge l'execution ? Pas un cours a regarder. Pas un modele a remplir. Une equipe qui vous rejoint la ou vous en etes.",
-    "p4": "C'est Ikigai Team. Ca commence par une conversation, pas une configuration. Sage vous aide a trouver votre direction. Marco la transforme en strategie. Maya la met en oeuvre chaque jour. Vous vous concentrez sur votre ikigai."
+    "personal": {
+      "title": "Ca vous dit quelque chose ?",
+      "p1": "Vous etes un fondateur solo qui porte toutes les casquettes. CEO le lundi, developpeur le mardi, redacteur le mercredi, support le jeudi, et le vendredi vous etes trop epuise pour penser a la strategie.",
+      "p2": "Vous avez entendu parler des OKRs, GTD, Level 10 Life, Sociocratie. Vous savez que ca marche. Mais qui a le temps d'apprendre tout ca, de le mettre en place et de s'y tenir ?",
+      "p3": "Et si quelqu'un s'asseyait avec vous, vous aidait a comprendre ce qui compte, le transformait en plan et prenait en charge l'execution ? Pas un cours a regarder. Pas un modele a remplir. Une equipe qui vous rejoint la ou vous en etes.",
+      "p4": "C'est Ikigai Team. Ca commence par une conversation, pas une configuration. Sage vous aide a trouver votre direction. Marco la transforme en strategie. Maya la met en oeuvre chaque jour. Vous vous concentrez sur votre ikigai."
+    },
+    "work": {
+      "title": "Ca ressemble a votre entreprise ?",
+      "p1": "Votre equipe utilise cinq outils IA differents sans aucune coherence. Chacun fait ses prompts differemment. Le contexte se perd entre les sessions. Les nouveaux passent des jours a configurer.",
+      "p2": "Vous savez que l'IA peut transformer la productivite. Mais le deployer dans une equipe signifie des standards, de la gouvernance, du contexte partage et de l'onboarding — et personne n'a le temps de tout construire.",
+      "p3": "Et si un prompt donnait a chaque membre de l'equipe un espace avec le contexte de l'entreprise, les roles par defaut, les workflows de reunion et la gouvernance ? Pas un programme de formation. Pas une page wiki. Un systeme qui fonctionne des le premier jour.",
+      "p4": "C'est Ikigai Team pour le travail. Installez une fois, integrez tout le monde. Base partagee, workflows coherents, espaces individuels. Votre equipe se concentre sur le travail — pas sur l'outillage."
+    }
   },
   "cta": {
-    "title": "Pret a rencontrer votre equipe ?",
-    "subtitle": "Une commande configure 6 agents avec GTD, OKRs, coaching et gouvernance. Vous repartez avec un systeme fonctionnel, pas une page blanche.",
+    "personal": {
+      "title": "Pret a rencontrer votre equipe ?",
+      "subtitle": "Une commande configure 6 agents avec GTD, OKRs, coaching et gouvernance. Vous repartez avec un systeme fonctionnel, pas une page blanche."
+    },
+    "work": {
+      "title": "Pret a configurer votre espace de travail ?",
+      "subtitle": "Une commande installe un espace de travail IA complet avec contexte d'entreprise, workflows d'equipe et gouvernance. Chaque membre est productif des le premier jour."
+    },
     "getStarted": "Commencer",
     "browseSkills": "Parcourir les competences"
   },
   "footer": {
     "madeBy": "Cree par"
+  },
+  "path": {
+    "personal": "Personnel",
+    "work": "Travail"
   }
 }

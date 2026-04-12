@@ -11,9 +11,16 @@
     "documentation": "Documentacao"
   },
   "hero": {
-    "title": "Sua equipe de IA",
-    "titleHighlight": "dos sonhos",
-    "subtitle": "Abra sua ferramenta de IA preferida, cole um prompt e comece. Sem assistente de configuracao, sem desvios pela documentacao, sem decisoes extras.",
+    "personal": {
+      "title": "Sua equipe de IA",
+      "titleHighlight": "dos sonhos",
+      "subtitle": "Abra sua ferramenta de IA preferida, cole um prompt e comece. Sem assistente de configuracao, sem desvios pela documentacao, sem decisoes extras."
+    },
+    "work": {
+      "title": "Seu espaco de trabalho",
+      "titleHighlight": "com IA",
+      "subtitle": "Um prompt configura um ambiente pronto para trabalhar com contexto da empresa, workflows de equipe e presets de funcao."
+    },
     "ariaTools": "Ferramentas de IA suportadas",
     "step2": "2. Cole este prompt",
     "copied": "Copiado",
@@ -28,8 +35,14 @@
     }
   },
   "journey": {
-    "title": "Nao apenas agentes. Uma jornada.",
-    "subtitle": "Comeca por voce — nao por arquivos de configuracao. Cada metodologia esta integrada. Voce nao precisa aprender primeiro. A equipe ensina pelo caminho.",
+    "personal": {
+      "title": "Nao apenas agentes. Uma jornada.",
+      "subtitle": "Comeca por voce — nao por arquivos de configuracao. Cada metodologia esta integrada. Voce nao precisa aprender primeiro. A equipe ensina pelo caminho."
+    },
+    "work": {
+      "title": "Nao apenas ferramentas. Um sistema.",
+      "subtitle": "Comeca pelo contexto da sua empresa — nao por templates vazios. Workflows, configuracoes e governanca estao pre-carregados. Sua equipe e produtiva desde o primeiro dia."
+    },
     "step": "PASSO",
     "with": "com",
     "steps": {
@@ -157,38 +170,77 @@
     }
   },
   "howItWorks": {
-    "title": "Como funciona",
-    "subtitle": "Tres passos para sua equipe executiva movida a IA.",
     "step": "PASSO",
-    "steps": {
-      "startWithSage": {
-        "title": "Comece com Sage",
-        "description": "Uma sessao de coaching, nao um wizard de configuracao. Reflita sobre sua vida, avalie onde voce esta, encontre sua direcao."
-      },
-      "buildStrategy": {
-        "title": "Construa sua estrategia",
-        "description": "Marco ajuda a transformar sua visao em OKRs. Maya estabelece o ritmo diario. A equipe se forma ao redor dos seus objetivos."
-      },
-      "focusOnIkigai": {
-        "title": "Foque no seu Ikigai",
-        "description": "A equipe cuida de operacoes, codigo, conteudo, comunidade. Voce faz o que so voce pode fazer."
+    "personal": {
+      "title": "Como funciona",
+      "subtitle": "Tres passos para sua equipe executiva movida a IA.",
+      "steps": {
+        "startWithSage": {
+          "title": "Comece com Sage",
+          "description": "Uma sessao de coaching, nao um wizard de configuracao. Reflita sobre sua vida, avalie onde voce esta, encontre sua direcao."
+        },
+        "buildStrategy": {
+          "title": "Construa sua estrategia",
+          "description": "Marco ajuda a transformar sua visao em OKRs. Maya estabelece o ritmo diario. A equipe se forma ao redor dos seus objetivos."
+        },
+        "focusOnIkigai": {
+          "title": "Foque no seu Ikigai",
+          "description": "A equipe cuida de operacoes, codigo, conteudo, comunidade. Voce faz o que so voce pode fazer."
+        }
+      }
+    },
+    "work": {
+      "title": "Como funciona",
+      "subtitle": "Tres passos para um espaco de trabalho IA produtivo para sua equipe.",
+      "steps": {
+        "startWithSage": {
+          "title": "Instalar o workspace",
+          "description": "Um prompt configura contexto da empresa, funcoes padrao e workflows compartilhados. Sem configuracao manual."
+        },
+        "buildStrategy": {
+          "title": "Integrar a equipe",
+          "description": "Cada membro da equipe recebe um workspace personalizado com funcao, projetos e ferramentas pre-configuradas."
+        },
+        "focusOnIkigai": {
+          "title": "Focar no trabalho",
+          "description": "Reunioes, follow-ups, pesquisa e relatorios acontecem automaticamente. Sua equipe foca no que importa."
+        }
       }
     }
   },
   "founderStory": {
-    "title": "Soa familiar?",
-    "p1": "Voce e um fundador solo que usa todos os chapeus. CEO na segunda, desenvolvedor na terca, redator na quarta, suporte na quinta, e na sexta voce esta exausto demais para pensar em estrategia.",
-    "p2": "Voce ouviu falar de OKRs, GTD, Level 10 Life, Sociocracia. Voce sabe que funcionam. Mas quem tem tempo para aprender tudo isso, configurar e realmente manter?",
-    "p3": "E se alguem sentasse com voce, ajudasse a descobrir o que importa, transformasse em um plano e depois cuidasse da execucao? Nao um curso para assistir. Nao um template para preencher. Uma equipe que te encontra onde voce esta.",
-    "p4": "Isso e Ikigai Team. Comeca com uma conversa, nao com uma configuracao. Sage ajuda a encontrar sua direcao. Marco transforma em estrategia. Maya executa todos os dias. Voce foca no seu ikigai."
+    "personal": {
+      "title": "Soa familiar?",
+      "p1": "Voce e um fundador solo que usa todos os chapeus. CEO na segunda, desenvolvedor na terca, redator na quarta, suporte na quinta, e na sexta voce esta exausto demais para pensar em estrategia.",
+      "p2": "Voce ouviu falar de OKRs, GTD, Level 10 Life, Sociocracia. Voce sabe que funcionam. Mas quem tem tempo para aprender tudo isso, configurar e realmente manter?",
+      "p3": "E se alguem sentasse com voce, ajudasse a descobrir o que importa, transformasse em um plano e depois cuidasse da execucao? Nao um curso para assistir. Nao um template para preencher. Uma equipe que te encontra onde voce esta.",
+      "p4": "Isso e Ikigai Team. Comeca com uma conversa, nao com uma configuracao. Sage ajuda a encontrar sua direcao. Marco transforma em estrategia. Maya executa todos os dias. Voce foca no seu ikigai."
+    },
+    "work": {
+      "title": "Parece com a sua empresa?",
+      "p1": "Sua equipe usa cinco ferramentas de IA diferentes sem nenhuma consistencia. Cada um faz prompts de forma diferente. O contexto se perde entre sessoes. Novos funcionarios passam dias configurando.",
+      "p2": "Voce sabe que IA pode transformar a produtividade. Mas implementar numa equipe significa padroes, governanca, contexto compartilhado e onboarding — e ninguem tem tempo de construir tudo isso.",
+      "p3": "E se um prompt desse a cada membro da equipe um workspace com contexto da empresa, funcoes padrao, workflows de reuniao e governanca? Nao um programa de treinamento. Nao uma pagina wiki. Um sistema que funciona desde o primeiro dia.",
+      "p4": "Isso e Ikigai Team para o trabalho. Instale uma vez, integre todos. Base compartilhada, workflows consistentes, workspaces individuais. Sua equipe foca no trabalho — nao nas ferramentas."
+    }
   },
   "cta": {
-    "title": "Pronto para conhecer sua equipe?",
-    "subtitle": "Um comando configura 6 agentes com GTD, OKRs, coaching e governanca. Voce sai com um sistema funcionando, nao com uma tela em branco.",
+    "personal": {
+      "title": "Pronto para conhecer sua equipe?",
+      "subtitle": "Um comando configura 6 agentes com GTD, OKRs, coaching e governanca. Voce sai com um sistema funcionando, nao com uma tela em branco."
+    },
+    "work": {
+      "title": "Pronto para configurar seu workspace?",
+      "subtitle": "Um comando instala um workspace IA completo com contexto da empresa, workflows de equipe e governanca. Cada membro e produtivo desde o primeiro dia."
+    },
     "getStarted": "Comecar",
     "browseSkills": "Explorar habilidades"
   },
   "footer": {
     "madeBy": "Feito por"
+  },
+  "path": {
+    "personal": "Pessoal",
+    "work": "Trabalho"
   }
 }

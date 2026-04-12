@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const { path } = usePath()
 
 const journeyKeys = ['reflect', 'findDirection', 'setStrategy', 'buildRhythm', 'execute'] as const
 
@@ -16,9 +17,9 @@ const journeyMeta = [
   <section class="py-20 bg-muted/30">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <h2 class="text-3xl font-bold">{{ t('journey.title') }}</h2>
+        <h2 class="text-3xl font-bold">{{ t(`journey.${path}.title`) }}</h2>
         <p class="mt-3 text-lg text-muted-foreground max-w-2xl mx-auto">
-          {{ t('journey.subtitle') }}
+          {{ t(`journey.${path}.subtitle`) }}
         </p>
       </div>
       <div class="space-y-6 max-w-3xl mx-auto">

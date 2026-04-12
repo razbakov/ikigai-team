@@ -11,9 +11,16 @@
     "documentation": "Dokumentation"
   },
   "hero": {
-    "title": "Dein KI-",
-    "titleHighlight": "Traumteam",
-    "subtitle": "Offne dein bevorzugtes KI-Werkzeug, fuge einen Prompt ein und starte. Kein Setup-Assistent, kein Umweg uber Docs, keine zusatzlichen Entscheidungen.",
+    "personal": {
+      "title": "Dein KI-",
+      "titleHighlight": "Traumteam",
+      "subtitle": "Offne dein bevorzugtes KI-Werkzeug, fuge einen Prompt ein und starte. Kein Setup-Assistent, kein Umweg uber Docs, keine zusatzlichen Entscheidungen."
+    },
+    "work": {
+      "title": "Dein KI-gestützter",
+      "titleHighlight": "Arbeitsplatz",
+      "subtitle": "Ein Prompt richtet eine arbeitsbereite Umgebung ein — mit Firmenkontext, Team-Workflows und Rollen-Voreinstellungen."
+    },
     "ariaTools": "Unterstutzte KI-Werkzeuge",
     "step2": "2. Fuge diesen Prompt ein",
     "copied": "Kopiert",
@@ -28,8 +35,14 @@
     }
   },
   "journey": {
-    "title": "Nicht nur Agenten. Eine Reise.",
-    "subtitle": "Es beginnt bei dir — nicht bei Konfigurationsdateien. Jede Methodik ist integriert. Du musst sie nicht erst lernen. Das Team bringt sie dir bei.",
+    "personal": {
+      "title": "Nicht nur Agenten. Eine Reise.",
+      "subtitle": "Es beginnt bei dir — nicht bei Konfigurationsdateien. Jede Methodik ist integriert. Du musst sie nicht erst lernen. Das Team bringt sie dir bei."
+    },
+    "work": {
+      "title": "Nicht nur Tools. Ein System.",
+      "subtitle": "Es beginnt mit deinem Firmenkontext — nicht mit leeren Vorlagen. Workflows, Standardeinstellungen und Governance sind vorinstalliert. Dein Team ist vom ersten Tag an produktiv."
+    },
     "step": "SCHRITT",
     "with": "mit",
     "steps": {
@@ -157,38 +170,77 @@
     }
   },
   "howItWorks": {
-    "title": "Wie es funktioniert",
-    "subtitle": "Drei Schritte zu deinem KI-gesteuerten Fuhrungsteam.",
     "step": "SCHRITT",
-    "steps": {
-      "startWithSage": {
-        "title": "Starte mit Sage",
-        "description": "Eine Coaching-Session, kein Setup-Assistent. Reflektiere uber dein Leben, bewerte wo du stehst, finde deine Richtung."
-      },
-      "buildStrategy": {
-        "title": "Baue deine Strategie",
-        "description": "Marco hilft, deine Vision in OKRs zu verwandeln. Maya baut den taglichen Rhythmus auf. Das Team formiert sich um deine Ziele."
-      },
-      "focusOnIkigai": {
-        "title": "Konzentriere dich auf dein Ikigai",
-        "description": "Das Team ubernimmt Operations, Code, Content, Community. Du tust, was nur du tun kannst."
+    "personal": {
+      "title": "Wie es funktioniert",
+      "subtitle": "Drei Schritte zu deinem KI-gesteuerten Fuhrungsteam.",
+      "steps": {
+        "startWithSage": {
+          "title": "Starte mit Sage",
+          "description": "Eine Coaching-Session, kein Setup-Assistent. Reflektiere uber dein Leben, bewerte wo du stehst, finde deine Richtung."
+        },
+        "buildStrategy": {
+          "title": "Baue deine Strategie",
+          "description": "Marco hilft, deine Vision in OKRs zu verwandeln. Maya baut den taglichen Rhythmus auf. Das Team formiert sich um deine Ziele."
+        },
+        "focusOnIkigai": {
+          "title": "Konzentriere dich auf dein Ikigai",
+          "description": "Das Team ubernimmt Operations, Code, Content, Community. Du tust, was nur du tun kannst."
+        }
+      }
+    },
+    "work": {
+      "title": "Wie es funktioniert",
+      "subtitle": "Drei Schritte zum produktiven KI-Arbeitsplatz fur dein Team.",
+      "steps": {
+        "startWithSage": {
+          "title": "Workspace installieren",
+          "description": "Ein Prompt richtet Firmenkontext, Rollen-Standards und gemeinsame Workflows ein. Keine manuelle Konfiguration nötig."
+        },
+        "buildStrategy": {
+          "title": "Team einarbeiten",
+          "description": "Jedes Teammitglied bekommt einen personalisierten Workspace mit Rolle, Projekten und vorkonfigurierten Tools."
+        },
+        "focusOnIkigai": {
+          "title": "Auf die Arbeit fokussieren",
+          "description": "Meetings, Follow-ups, Recherche und Reporting laufen automatisch. Dein Team konzentriert sich auf das Wesentliche."
+        }
       }
     }
   },
   "founderStory": {
-    "title": "Kommt dir das bekannt vor?",
-    "p1": "Du bist ein Einzelgrunder, der alle Hute tragt. CEO am Montag, Entwickler am Dienstag, Content-Autor am Mittwoch, Support am Donnerstag, und am Freitag bist du zu erschopft, um uber Strategie nachzudenken.",
-    "p2": "Du hast von OKRs, GTD, Level 10 Life, Soziokratie gehort. Du weisst, dass sie funktionieren. Aber wer hat die Zeit, das alles zu lernen, einzurichten und tatsachlich durchzuhalten?",
-    "p3": "Was wenn jemand sich mit dir hinsetzt, dir hilft herauszufinden was wichtig ist, es in einen Plan verwandelt und dann die Umsetzung ubernimmt? Kein Kurs zum Anschauen. Keine Vorlage zum Ausfullen. Ein Team, das dich dort abholt wo du bist.",
-    "p4": "Das ist Ikigai Team. Es beginnt mit einem Gesprach, nicht mit einer Konfiguration. Sage hilft dir deine Richtung zu finden. Marco verwandelt es in Strategie. Maya setzt es jeden Tag um. Du konzentrierst dich auf dein Ikigai."
+    "personal": {
+      "title": "Kommt dir das bekannt vor?",
+      "p1": "Du bist ein Einzelgrunder, der alle Hute tragt. CEO am Montag, Entwickler am Dienstag, Content-Autor am Mittwoch, Support am Donnerstag, und am Freitag bist du zu erschopft, um uber Strategie nachzudenken.",
+      "p2": "Du hast von OKRs, GTD, Level 10 Life, Soziokratie gehort. Du weisst, dass sie funktionieren. Aber wer hat die Zeit, das alles zu lernen, einzurichten und tatsachlich durchzuhalten?",
+      "p3": "Was wenn jemand sich mit dir hinsetzt, dir hilft herauszufinden was wichtig ist, es in einen Plan verwandelt und dann die Umsetzung ubernimmt? Kein Kurs zum Anschauen. Keine Vorlage zum Ausfullen. Ein Team, das dich dort abholt wo du bist.",
+      "p4": "Das ist Ikigai Team. Es beginnt mit einem Gesprach, nicht mit einer Konfiguration. Sage hilft dir deine Richtung zu finden. Marco verwandelt es in Strategie. Maya setzt es jeden Tag um. Du konzentrierst dich auf dein Ikigai."
+    },
+    "work": {
+      "title": "Klingt nach deiner Firma?",
+      "p1": "Dein Team nutzt funf verschiedene KI-Tools ohne jede Konsistenz. Jeder promptet anders. Kontext geht zwischen Sessions verloren. Neue Mitarbeiter brauchen Tage fur das Setup.",
+      "p2": "Du weisst, dass KI die Produktivitat transformieren kann. Aber der Rollout im Team bedeutet Standards, Governance, gemeinsamer Kontext und Onboarding — und niemand hat Zeit, das alles aufzubauen.",
+      "p3": "Was wenn ein Prompt jedem Teammitglied einen Workspace mit Firmenkontext, Rollen-Standards, Meeting-Workflows und Governance gibt? Kein Schulungsprogramm. Keine Wiki-Seite. Ein System, das vom ersten Tag funktioniert.",
+      "p4": "Das ist Ikigai Team fur die Arbeit. Einmal installieren, alle einarbeiten. Gemeinsame Grundlage, konsistente Workflows, individuelle Workspaces. Dein Team konzentriert sich auf die Arbeit — nicht auf das Tooling."
+    }
   },
   "cta": {
-    "title": "Bereit, dein Team zu treffen?",
-    "subtitle": "Ein Befehl richtet 6 Agenten mit GTD, OKRs, Coaching und Governance ein. Du gehst mit einem funktionierenden System, nicht einer leeren Leinwand.",
+    "personal": {
+      "title": "Bereit, dein Team zu treffen?",
+      "subtitle": "Ein Befehl richtet 6 Agenten mit GTD, OKRs, Coaching und Governance ein. Du gehst mit einem funktionierenden System, nicht einer leeren Leinwand."
+    },
+    "work": {
+      "title": "Bereit, deinen Workspace einzurichten?",
+      "subtitle": "Ein Befehl installiert einen kompletten KI-Workspace mit Firmenkontext, Team-Workflows und Governance. Jedes Teammitglied ist vom ersten Tag produktiv."
+    },
     "getStarted": "Loslegen",
     "browseSkills": "Fahigkeiten durchsuchen"
   },
   "footer": {
     "madeBy": "Erstellt von"
+  },
+  "path": {
+    "personal": "Persoenlich",
+    "work": "Arbeit"
   }
 }

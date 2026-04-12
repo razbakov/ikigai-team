@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const { path } = usePath()
 </script>
 
 <template>
@@ -10,13 +11,13 @@ const { t } = useI18n()
           <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
             <Icon name="lucide:lightbulb" class="w-5 h-5 text-primary" />
           </div>
-          <h2 class="text-2xl font-bold">{{ t('founderStory.title') }}</h2>
+          <h2 class="text-2xl font-bold">{{ t(`founderStory.${path}.title`) }}</h2>
         </div>
         <div class="space-y-4 text-muted-foreground">
-          <p>{{ t('founderStory.p1') }}</p>
-          <p>{{ t('founderStory.p2') }}</p>
-          <p>{{ t('founderStory.p3') }}</p>
-          <p class="text-foreground font-medium">{{ t('founderStory.p4') }}</p>
+          <p>{{ t(`founderStory.${path}.p1`) }}</p>
+          <p>{{ t(`founderStory.${path}.p2`) }}</p>
+          <p>{{ t(`founderStory.${path}.p3`) }}</p>
+          <p class="text-foreground font-medium">{{ t(`founderStory.${path}.p4`) }}</p>
         </div>
       </div>
     </div>

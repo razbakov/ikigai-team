@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const { path } = usePath()
 const starterPrompt = 'Set up my Ikigai Team using https://github.com/razbakov/ikigai-team'
 const copied = ref(false)
 
@@ -13,83 +14,17 @@ type Harness = {
 }
 
 const harnesses: Harness[] = [
-  {
-    id: 'claude-code',
-    name: 'Claude Code',
-    launchLabel: 'Open Claude Code',
-    logoKind: 'icon',
-    logo: 'simple-icons:claude',
-  },
-  {
-    id: 'cursor',
-    name: 'Cursor',
-    launchLabel: 'Open Cursor Chat or Agent',
-    logoKind: 'icon',
-    logo: 'simple-icons:cursor',
-  },
-  {
-    id: 'codex',
-    name: 'Codex',
-    launchLabel: 'Open Codex',
-    logoKind: 'icon',
-    logo: 'simple-icons:openai',
-  },
-  {
-    id: 'antigravity',
-    name: 'AntiGravity',
-    launchLabel: 'Open AntiGravity',
-    logoKind: 'monogram',
-    monogram: 'AG',
-  },
-  {
-    id: 'chatgpt',
-    name: 'ChatGPT',
-    launchLabel: 'Open ChatGPT',
-    logoKind: 'icon',
-    logo: 'simple-icons:openai',
-  },
-  {
-    id: 'cline',
-    name: 'Cline',
-    launchLabel: 'Open Cline',
-    logoKind: 'icon',
-    logo: 'simple-icons:cline',
-  },
-  {
-    id: 'windsurf',
-    name: 'Windsurf',
-    launchLabel: 'Open Windsurf',
-    logoKind: 'icon',
-    logo: 'simple-icons:windsurf',
-  },
-  {
-    id: 'continue',
-    name: 'Continue',
-    launchLabel: 'Open Continue',
-    logoKind: 'monogram',
-    monogram: 'Co',
-  },
-  {
-    id: 'aider',
-    name: 'Aider',
-    launchLabel: 'Open Aider',
-    logoKind: 'monogram',
-    monogram: 'Ai',
-  },
-  {
-    id: 'gemini-cli',
-    name: 'Gemini CLI',
-    launchLabel: 'Open Gemini CLI',
-    logoKind: 'icon',
-    logo: 'simple-icons:googlegemini',
-  },
-  {
-    id: 'opencode',
-    name: 'OpenCode',
-    launchLabel: 'Open OpenCode',
-    logoKind: 'monogram',
-    monogram: 'Op',
-  },
+  { id: 'claude-code', name: 'Claude Code', launchLabel: 'Open Claude Code', logoKind: 'icon', logo: 'simple-icons:claude' },
+  { id: 'cursor', name: 'Cursor', launchLabel: 'Open Cursor Chat or Agent', logoKind: 'icon', logo: 'simple-icons:cursor' },
+  { id: 'codex', name: 'Codex', launchLabel: 'Open Codex', logoKind: 'icon', logo: 'simple-icons:openai' },
+  { id: 'antigravity', name: 'AntiGravity', launchLabel: 'Open AntiGravity', logoKind: 'monogram', monogram: 'AG' },
+  { id: 'chatgpt', name: 'ChatGPT', launchLabel: 'Open ChatGPT', logoKind: 'icon', logo: 'simple-icons:openai' },
+  { id: 'cline', name: 'Cline', launchLabel: 'Open Cline', logoKind: 'icon', logo: 'simple-icons:cline' },
+  { id: 'windsurf', name: 'Windsurf', launchLabel: 'Open Windsurf', logoKind: 'icon', logo: 'simple-icons:windsurf' },
+  { id: 'continue', name: 'Continue', launchLabel: 'Open Continue', logoKind: 'monogram', monogram: 'Co' },
+  { id: 'aider', name: 'Aider', launchLabel: 'Open Aider', logoKind: 'monogram', monogram: 'Ai' },
+  { id: 'gemini-cli', name: 'Gemini CLI', launchLabel: 'Open Gemini CLI', logoKind: 'icon', logo: 'simple-icons:googlegemini' },
+  { id: 'opencode', name: 'OpenCode', launchLabel: 'Open OpenCode', logoKind: 'monogram', monogram: 'Op' },
 ]
 
 const selectedHarnessId = ref(harnesses[0]!.id)
@@ -100,10 +35,7 @@ const selectedHarness = computed(
 async function copyPrompt() {
   await navigator.clipboard.writeText(starterPrompt)
   copied.value = true
-
-  setTimeout(() => {
-    copied.value = false
-  }, 2000)
+  setTimeout(() => { copied.value = false }, 2000)
 }
 </script>
 
@@ -112,12 +44,38 @@ async function copyPrompt() {
     <div class="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       <div class="text-center max-w-3xl mx-auto mb-12">
+        <!-- Path toggle -->
+        <div class="inline-flex items-center gap-1 rounded-full border border-border bg-card/80 p-1 mb-8">
+          <button
+            type="button"
+            class="rounded-full px-4 py-1.5 text-sm font-medium transition-colors"
+            :class="path === 'personal'
+              ? 'bg-primary text-primary-foreground'
+              : 'text-muted-foreground hover:text-foreground'"
+            @click="path = 'personal'"
+          >
+            <Icon name="lucide:user" class="w-3.5 h-3.5 inline-block mr-1 -mt-0.5" />
+            {{ t('path.personal') }}
+          </button>
+          <button
+            type="button"
+            class="rounded-full px-4 py-1.5 text-sm font-medium transition-colors"
+            :class="path === 'work'
+              ? 'bg-primary text-primary-foreground'
+              : 'text-muted-foreground hover:text-foreground'"
+            @click="path = 'work'"
+          >
+            <Icon name="lucide:building-2" class="w-3.5 h-3.5 inline-block mr-1 -mt-0.5" />
+            {{ t('path.work') }}
+          </button>
+        </div>
+
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-          {{ t('hero.title') }}
-          <span class="text-primary">{{ t('hero.titleHighlight') }}</span>
+          {{ t(`hero.${path}.title`) }}
+          <span class="text-primary">{{ t(`hero.${path}.titleHighlight`) }}</span>
         </h1>
         <p class="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-          {{ t('hero.subtitle') }}
+          {{ t(`hero.${path}.subtitle`) }}
         </p>
 
         <div class="mt-8 max-w-4xl mx-auto text-left">
@@ -172,7 +130,6 @@ async function copyPrompt() {
               {{ copied ? t('hero.copied') : t('hero.copyPrompt') }}
             </button>
           </div>
-
           <div class="px-4 py-4">
             <pre class="whitespace-pre-wrap break-words text-sm sm:text-base leading-7 text-foreground font-mono">{{ starterPrompt }}</pre>
           </div>
