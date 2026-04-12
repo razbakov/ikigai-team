@@ -6,9 +6,9 @@ import { AGENTS } from '~/types/agent'
   <section class="py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold">Meet Your Team</h2>
+        <h2 class="text-3xl font-bold">{{ $t('agents.title') }}</h2>
         <p class="mt-3 text-lg text-muted-foreground max-w-2xl mx-auto">
-          Six specialized agents, each with their own expertise and personality. Pick the ones you need.
+          {{ $t('agents.subtitle') }}
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

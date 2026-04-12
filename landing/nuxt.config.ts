@@ -29,7 +29,30 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
+    '@nuxtjs/i18n',
   ],
+
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json' },
+      { code: 'de', name: 'Deutsch', file: 'de.json' },
+      { code: 'es', name: 'Espanol', file: 'es.json' },
+      { code: 'fr', name: 'Francais', file: 'fr.json' },
+      { code: 'it', name: 'Italiano', file: 'it.json' },
+      { code: 'pt', name: 'Portugues', file: 'pt.json' },
+      { code: 'ru', name: 'Русский', file: 'ru.json' },
+      { code: 'uk', name: 'Українська', file: 'uk.json' },
+    ],
+    defaultLocale: 'en',
+    lazy: true,
+    langDir: 'locales',
+    strategy: 'prefix_except_default',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+    },
+  },
 
   postcss: {
     plugins: {

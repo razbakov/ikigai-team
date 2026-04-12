@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import type { AgentDefinition } from '~/types/agent'
 
-defineProps<{
+const { t, tm } = useI18n()
+
+const props = defineProps<{
   agent: AgentDefinition
 }>()
 
@@ -22,6 +24,11 @@ const ringColorMap: Record<string, string> = {
   sage: 'ring-[var(--color-sage)]',
   kai: 'ring-[var(--color-kai)]',
 }
+
+const responsibilities = computed(() => {
+  const raw = tm(`agents.${props.agent.id}.responsibilities`)
+  return Array.isArray(raw) ? raw.map(String) : props.agent.responsibilities
+})
 </script>
 
 <template>
@@ -39,7 +46,7 @@ const ringColorMap: Record<string, string> = {
         />
         <div>
           <h3 class="font-semibold text-lg">{{ agent.name }}</h3>
-          <p class="text-sm text-muted-foreground">{{ agent.role }}</p>
+          <p class="text-sm text-muted-foreground">{{ t(`agents.${agent.id}.role`) }}</p>
         </div>
       </div>
       <span class="text-xs px-2 py-1 rounded-full bg-muted text-muted-foreground font-mono">
@@ -47,11 +54,11 @@ const ringColorMap: Record<string, string> = {
       </span>
     </div>
     <p class="text-sm text-muted-foreground mb-4 line-clamp-2">
-      {{ agent.description }}
+      {{ t(`agents.${agent.id}.description`) }}
     </p>
     <ul class="space-y-2">
       <li
-        v-for="resp in agent.responsibilities"
+        v-for="resp in responsibilities"
         :key="resp"
         class="flex items-start gap-2 text-sm"
       >

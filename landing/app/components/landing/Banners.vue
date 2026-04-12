@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
+
 <template>
   <section class="py-12">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
@@ -12,10 +16,10 @@
           <span class="text-emerald-600 dark:text-emerald-400 font-mono font-bold text-xs">&lt;LBD&gt;</span>
         </div>
         <div class="flex-1 min-w-0">
-          <h3 class="font-semibold group-hover:text-primary transition-colors">Built at Learn By Doing Academy</h3>
-          <p class="text-sm text-muted-foreground">Want to build your own AI agent team? Live sessions, mentorship, and real projects.</p>
+          <h3 class="font-semibold group-hover:text-primary transition-colors">{{ t('banners.lbd.title') }}</h3>
+          <p class="text-sm text-muted-foreground">{{ t('banners.lbd.description') }}</p>
         </div>
-        <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">Learn to build yours &rarr;</span>
+        <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">{{ t('banners.lbd.cta') }} &rarr;</span>
       </a>
     </div>
   </section>

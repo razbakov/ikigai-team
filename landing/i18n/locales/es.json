@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Ikigai Team — Tu equipo de IA de ensueno",
+    "description": "6 agentes de IA con GTD, OKRs, Level 10 Life y gobernanza S3 integrados. Un sistema completo para fundadores en solitario — no solo agentes, una forma de trabajar."
+  },
+  "nav": {
+    "home": "Inicio",
+    "guide": "Guia",
+    "skills": "Habilidades",
+    "getStarted": "Comenzar",
+    "documentation": "Documentacion"
+  },
+  "hero": {
+    "title": "Tu equipo de IA",
+    "titleHighlight": "de ensueno",
+    "subtitle": "Abre Claude Code en el escritorio, pega este mensaje y comienza. Sin asistente de configuracion, sin desvios por documentacion, sin decisiones extra.",
+    "step1": "1. Abre Claude Code en el escritorio",
+    "step2": "2. Pega este prompt",
+    "copied": "Copiado",
+    "copyPrompt": "Copiar prompt",
+    "heroAlt": "Conoce al Ikigai Team — Maya, Viktor, Luna, Alex, Marco, Sage y Kai"
+  },
+  "banners": {
+    "lbd": {
+      "title": "Construido en Learn By Doing Academy",
+      "description": "Quieres construir tu propio equipo de agentes IA? Sesiones en vivo, mentoria y proyectos reales.",
+      "cta": "Aprende a construir el tuyo"
+    }
+  },
+  "journey": {
+    "title": "No solo agentes. Un viaje.",
+    "subtitle": "Comienza contigo — no con archivos de configuracion. Cada metodologia esta integrada. No necesitas aprenderla primero. El equipo te ensena sobre la marcha.",
+    "step": "PASO",
+    "with": "con",
+    "steps": {
+      "reflect": {
+        "name": "Reflexionar",
+        "description": "Empieza contigo mismo. Evaluacion Level 10 Life — puntua 10 areas de tu vida honestamente. Donde estas ahora?",
+        "methodology": "Level 10 Life"
+      },
+      "findDirection": {
+        "name": "Encontrar direccion",
+        "description": "Define tu mision y vision. Usa el framework GROW: Meta (mision), Realidad (puntuaciones L10L), Opciones, Camino adelante.",
+        "methodology": "GROW + Ikigai"
+      },
+      "setStrategy": {
+        "name": "Definir estrategia",
+        "description": "Convierte tu camino adelante en OKRs. Objetivos medibles para este trimestre. Cuestiona supuestos. Enfocate.",
+        "methodology": "OKRs"
+      },
+      "buildRhythm": {
+        "name": "Construir el ritmo",
+        "description": "Revisiones diarias, procesamiento de bandeja de entrada, planificacion semanal. El sistema GTD que convierte estrategia en accion diaria.",
+        "methodology": "GTD"
+      },
+      "execute": {
+        "name": "Ejecutar",
+        "description": "Viktor construye. Luna crea contenido. Kai maneja la comunidad. Sage hace seguimiento. Maya mantiene todo funcionando. Tu te enfocas en tu ikigai.",
+        "methodology": "S3 Governance"
+      }
+    }
+  },
+  "methodologies": {
+    "title": "Todo integrado",
+    "subtitle": "No necesitas aprender estas metodologias primero. El equipo te ensena sobre la marcha.",
+    "items": {
+      "ikigai": {
+        "name": "Ikigai",
+        "description": "Encuentra tu proposito. Delega todo lo demas. El equipo existe para que puedas enfocarte en lo que solo tu puedes hacer."
+      },
+      "level10life": {
+        "name": "Level 10 Life",
+        "description": "Puntua 10 areas de vida, rastrea tendencias, detecta burnout antes de que golpee. Sage hace evaluaciones regularmente."
+      },
+      "grow": {
+        "name": "GROW",
+        "description": "Meta, Realidad, Opciones, Camino adelante. El framework de coaching que convierte reflexion en accion."
+      },
+      "okrs": {
+        "name": "OKRs",
+        "description": "Objetivos trimestrales se cascadan a cada agente. Marco rastrea progreso y cuestiona todo lo que no mueve la aguja."
+      },
+      "gtd": {
+        "name": "GTD",
+        "description": "Procesamiento de bandeja, proximas acciones, revisiones semanales. Maya ejecuta Getting Things Done para que nada se escape."
+      },
+      "s3": {
+        "name": "Sociocracia 3.0",
+        "description": "Dominios claros, decisiones basadas en consentimiento, matriz de autoridad. Cada agente conoce sus limites."
+      },
+      "crm": {
+        "name": "CRM",
+        "description": "Conoce a alguien, envia una captura. Kai investiga, enriquece el perfil y rastrea seguimientos."
+      },
+      "scrum": {
+        "name": "Scrum",
+        "description": "Standups diarios, planificacion de sprints, retrospectivas. Maya reporta logros de cada agente y senala bloqueadores."
+      }
+    }
+  },
+  "agents": {
+    "title": "Conoce a tu equipo",
+    "subtitle": "Seis agentes especializados, cada uno con su propia experiencia y personalidad. Elige los que necesites.",
+    "maya": {
+      "role": "Jefa de gabinete",
+      "description": "Maya mantiene todo funcionando. Ella posee tu ritmo diario, gestiona tu bandeja de entrada, coordina entre agentes y asegura que nada se pierda.",
+      "responsibilities": [
+        "Coordinacion de standups y check-ins diarios",
+        "Procesamiento de bandeja y flujo GTD",
+        "Delegacion de tareas entre agentes y seguimiento"
+      ]
+    },
+    "viktor": {
+      "role": "Director tecnico",
+      "description": "Viktor maneja el lado tecnico. Arquitecta soluciones, escribe codigo, gestiona despliegues y mantiene tu stack tecnologico saludable.",
+      "responsibilities": [
+        "Decisiones de arquitectura y revisiones de codigo",
+        "Pipeline CI/CD y gestion de despliegues",
+        "Seguimiento y resolucion de deuda tecnica"
+      ]
+    },
+    "luna": {
+      "role": "Directora de contenido y crecimiento",
+      "description": "Luna convierte tus ideas en contenido que llega a la gente. Escribe posts, gestiona redes sociales, optimiza SEO y construye tu presencia publica.",
+      "responsibilities": [
+        "Posts de blog, newsletters y redes sociales",
+        "Optimizacion SEO y calendario de contenido",
+        "Voz de marca y consistencia de mensajes"
+      ]
+    },
+    "marco": {
+      "role": "Director de estrategia y negocios",
+      "description": "Marco asegura que construyas las cosas correctas. Define OKRs, evalua modelos de negocio, rastrea metricas y mantiene tu portafolio enfocado.",
+      "responsibilities": [
+        "Definicion de OKRs y planificacion trimestral",
+        "Validacion de modelos de negocio y precios",
+        "Analisis competitivo e investigacion de mercado"
+      ]
+    },
+    "sage": {
+      "role": "Coach personal",
+      "description": "Sage cuida de ti como ser humano. Rastrea tu energia, alerta sobre riesgo de burnout, te ayuda a reconectar con tu proposito y mantiene el equilibrio.",
+      "responsibilities": [
+        "Monitoreo de energia y burnout",
+        "Alineacion de proposito y motivacion",
+        "Coaching de habitos saludables y rutinas"
+      ]
+    },
+    "kai": {
+      "role": "Comunidad y alianzas",
+      "description": "Kai construye tu red y nutre tu comunidad. Gestiona contactos, hace seguimiento despues de eventos y abre puertas a alianzas.",
+      "responsibilities": [
+        "Gestion de contactos y seguimientos",
+        "Participacion comunitaria y eventos",
+        "Alcance de alianzas y desarrollo de relaciones"
+      ]
+    }
+  },
+  "howItWorks": {
+    "title": "Como funciona",
+    "subtitle": "Tres pasos hacia tu equipo ejecutivo impulsado por IA.",
+    "step": "PASO",
+    "steps": {
+      "startWithSage": {
+        "title": "Comienza con Sage",
+        "description": "Una sesion de coaching, no un asistente de configuracion. Reflexiona sobre tu vida, evalua donde estas, encuentra tu direccion."
+      },
+      "buildStrategy": {
+        "title": "Construye tu estrategia",
+        "description": "Marco ayuda a convertir tu vision en OKRs. Maya establece el ritmo diario. El equipo se forma alrededor de tus metas."
+      },
+      "focusOnIkigai": {
+        "title": "Enfocate en tu Ikigai",
+        "description": "El equipo maneja operaciones, codigo, contenido, comunidad. Tu haces lo que solo tu puedes hacer."
+      }
+    }
+  },
+  "founderStory": {
+    "title": "Te suena familiar?",
+    "p1": "Eres un fundador en solitario que lleva todos los sombreros. CEO el lunes, desarrollador el martes, redactor de contenido el miercoles, soporte el jueves, y para el viernes estas demasiado agotado para pensar en estrategia.",
+    "p2": "Has oido hablar de OKRs, GTD, Level 10 Life, Sociocracia. Sabes que funcionan. Pero quien tiene tiempo para aprender todo eso, configurarlo y realmente mantenerlo?",
+    "p3": "Y si alguien se sentara contigo, te ayudara a descubrir que importa, lo convirtiera en un plan y luego manejara la ejecucion? No un curso para ver. No una plantilla para llenar. Un equipo que te encuentra donde estas.",
+    "p4": "Eso es Ikigai Team. Empieza con una conversacion, no con una configuracion. Sage te ayuda a encontrar tu direccion. Marco lo convierte en estrategia. Maya lo hace realidad cada dia. Tu te enfocas en tu ikigai."
+  },
+  "cta": {
+    "title": "Listo para conocer a tu equipo?",
+    "subtitle": "Un comando configura 6 agentes con GTD, OKRs, coaching y gobernanza. Te vas con un sistema funcionando, no con un lienzo en blanco.",
+    "getStarted": "Comenzar",
+    "browseSkills": "Explorar habilidades"
+  },
+  "footer": {
+    "madeBy": "Hecho por"
+  }
+}
