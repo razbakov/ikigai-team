@@ -31,6 +31,11 @@ Don't add a disclaimer ("approximate", "as of writing"). Don't ship the specific
 - DEV.to posts must include `canonical_url` in frontmatter pointing back to the original.
 - Each cross-post platform has its own metadata requirements — document them in the per-domain rules of your private repo, not here.
 
+### Ticketing links (TicketTailor)
+
+- When sharing a TicketTailor event anywhere (website CTA, flyer, socials, DM, email), link to the **ticket-list checkout URL** — `https://www.tickettailor.com/checkout/view-event/id/<id>/chk/<chk>/` — **not** the branded event-page short link (`buytickets.at/<store>/<id>`). The checkout link opens straight to the list of tickets, saving the visitor a click.
+- The checkout URL is returned as the occurrence's `url` field from the API (and shown per occurrence in the dashboard).
+
 ### Frontmatter discipline
 
 - All `last_updated` / `updated_at` fields must be actual datetimes (e.g. `2026-04-07 02:30`), never relative phrases like "today" or "just now". Future readers (including agents) cannot resolve relative timestamps.
