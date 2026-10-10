@@ -4,6 +4,12 @@ These are the universal verbal shortcuts the Commander uses. Personal shortcuts 
 
 ### Framework meta-shortcuts
 
+- **`live coding`** — switches the current session into local-only mode until the Commander says otherwise:
+  - **Work locally.** Edit the working copy in this session; don't dispatch to background agents or remote pipelines, and don't push or deploy unless asked.
+  - **Preview on localhost.** Run the dev server via the preview tool (`.claude/launch.json`) and verify there — not on Vercel/Netlify previews or production.
+  - **Issues are markdown files in the repo**, not Linear, GitHub Issues, or any external tracker. Use the project's existing issues folder if it has one (e.g. `docs/issues/`); otherwise create `docs/issues/<NNN>-<slug>.md` with a short S3 body (Tension · Driver · Requirement) and a `status:` line in frontmatter.
+  - This overrides the default task-tracking and auto-deploy rules for the session only.
+
 - **`rule: <text>`** — decide whether the rule is project-specific or global, add it to the appropriate CLAUDE.md (project CLAUDE.md, org CLAUDE.md, or `~/.claude/CLAUDE.md`), and execute it immediately.
 
 - **`learned?`** — analyse the process that just happened, extract lessons/insights, and add them to the project README.
