@@ -20,7 +20,7 @@ Set up my Ikigai Team using https://github.com/razbakov/ikigai-team
 
 The setup is a guided journey that starts with you. Go at your own pace — skip anything, come back anytime.
 
-**Meet Sage** — your personal coach. Sage helps you reflect on where you are in life right now. You can do a 12 Apostles Life Wheel assessment, explore what matters to you, or just have an honest conversation.
+**Meet Sage** — your personal coach. Sage helps you reflect on where you are in life right now. You can do a Level 10 Life assessment, explore what matters to you, or just have an honest conversation.
 
 **Find Your Direction** — when you are ready, Sage uses the GROW framework to help you find your mission. Your scores are Reality. Your vision is the Goal. Together you explore Options and find a Way Forward.
 

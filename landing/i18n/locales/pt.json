@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Ikigai Team — Sua equipe de IA dos sonhos",
-    "description": "6 agentes de IA com GTD, OKRs, a Roda da Vida dos 12 Apostolos e governanca S3 integrados. Um sistema completo para fundadores solo — nao apenas agentes, uma forma de trabalhar."
+    "description": "6 agentes de IA com GTD, OKRs, Level 10 Life e governanca S3 integrados. Um sistema completo para fundadores solo — nao apenas agentes, uma forma de trabalhar."
   },
   "nav": {
     "home": "Inicio",
@@ -48,8 +48,8 @@
     "personalSteps": {
       "reflect": {
         "name": "Refletir",
-        "description": "Comece por voce mesmo. Roda da Vida dos 12 Apostolos — pontue 12 virtudes dos apostolos de 1 a 10 honestamente. Onde voce esta agora?",
-        "methodology": "Roda da Vida dos 12 Apostolos"
+        "description": "Comece por voce mesmo. Uma avaliacao Level 10 Life — pontue honestamente 10 areas da sua vida de 1 a 10. Onde voce esta agora?",
+        "methodology": "Level 10 Life"
       },
       "findDirection": {
         "name": "Encontrar direcao",
@@ -108,9 +108,9 @@
         "name": "Ikigai",
         "description": "Encontre seu proposito. Delegue todo o resto. A equipe existe para que voce possa focar no que so voce pode fazer."
       },
-      "twelveApostles": {
-        "name": "Roda da Vida dos 12 Apostolos",
-        "description": "Pontue 12 virtudes dos apostolos de 1 a 10, acompanhe tendencias ao longo do tempo, destaque o raio mais fraco a cada semana. Faca regularmente como uma autoavaliacao guiada."
+      "levelTen": {
+        "name": "Level 10 Life",
+        "description": "Pontue 10 areas da vida de 1 a 10, acompanhe tendencias ao longo do tempo, escolha ate 3 areas de foco. O Sage preenche as notas com o que observa; voce confirma."
       },
       "grow": {
         "name": "GROW",
@@ -212,7 +212,7 @@
       "description": "Oracle le o padrao mais profundo. Ela trabalha com simbolo, mito e metafora — revela o significado sob as metricas, nomeia a historia que voce esta vivendo e cuida do espirito e do crescimento do todo.",
       "responsibilities": [
         "Reflexao simbolica e mitopoetica",
-        "Tutela dos dominios de vida Espirito e Crescimento",
+        "Leitura simbolica dos resultados do Level 10 Life",
         "Nomear padroes e significado sob os dados"
       ]
     }
@@ -260,7 +260,7 @@
     "personal": {
       "title": "Soa familiar?",
       "p1": "Voce e um fundador solo que usa todos os chapeus. CEO na segunda, desenvolvedor na terca, redator na quarta, suporte na quinta, e na sexta voce esta exausto demais para pensar em estrategia.",
-      "p2": "Voce ouviu falar de OKRs, GTD, da Roda da Vida dos 12 Apostolos, Sociocracia. Voce sabe que funcionam. Mas quem tem tempo para aprender tudo isso, configurar e realmente manter?",
+      "p2": "Voce ouviu falar de OKRs, GTD, de Level 10 Life, Sociocracia. Voce sabe que funcionam. Mas quem tem tempo para aprender tudo isso, configurar e realmente manter?",
       "p3": "E se alguem sentasse com voce, ajudasse a descobrir o que importa, transformasse em um plano e depois cuidasse da execucao? Nao um curso para assistir. Nao um template para preencher. Uma equipe que te encontra onde voce esta.",
       "p4": "Isso e Ikigai Team. Comeca com uma conversa, nao com uma configuracao. Sage ajuda a encontrar sua direcao. North transforma em estrategia. Maya executa todos os dias. Voce foca no seu ikigai."
     },
@@ -292,25 +292,24 @@
     "work": "Trabalho"
   },
   "lifeWheel": {
-    "title": "The 12-Domain Life Wheel",
-    "subtitle": "Your life is more than your work. The team scores all 12 domains 1–10, re-scores monthly, and routes each to one of six stewards.",
-    "scoreLabel": "scored 1–10",
-    "rescore": "Re-scored monthly",
-    "stewards": "6 stewards + Oracle",
-    "stewardsNote": "Each spoke has an owner. Maya keeps the wheel; Oracle tends Spirit and Growth.",
+    "title": "A roda Level 10 Life",
+    "subtitle": "A sua vida e mais do que o seu trabalho. Todo mes o Sage pontua 10 areas da vida de 1 a 10 com o que observa, e voce confirma ou corrige os numeros.",
+    "scoreLabel": "nota 1–10",
+    "areas": "areas da vida",
+    "rescore": "Reavaliada todo mes",
+    "owner": "Sage preenche, voce confirma",
+    "note": "No maximo 3 areas de foco por vez. A area mais fraca recebe a atencao livre da semana — nunca mais do que o seu limite diario.",
     "domains": {
-      "spirit": "Spirit",
-      "body": "Body",
-      "mind": "Mind",
-      "family": "Family",
-      "friends": "Friends",
-      "community": "Community",
-      "business": "Business",
-      "work": "Work",
-      "money": "Money",
-      "growth": "Growth",
-      "environment": "Environment",
-      "play": "Play"
+      "health": "Saude",
+      "growth": "Crescimento pessoal",
+      "spirituality": "Espiritualidade",
+      "finances": "Financas",
+      "career": "Carreira",
+      "romance": "Relacionamento",
+      "familyFriends": "Familia e amigos",
+      "fun": "Lazer",
+      "contribution": "Contribuicao",
+      "environment": "Ambiente"
     }
   },
   "setupQuiz": {
@@ -355,7 +354,7 @@
       "cta": "Open {agent}'s coaching notebook",
       "sageNote": "Every Ikigai Team journey begins with a conversation, not a configuration. Sage takes it from here.",
       "agents": {
-        "sage": "Voce carrega um peso que nenhum OKR vai levantar. Comece com o Sage — uma avaliacao da Roda da Vida dos 12 Apostolos e uma conversa real sobre a sua direcao.",
+        "sage": "Voce carrega um peso que nenhum OKR vai levantar. Comece com o Sage — uma avaliacao Level 10 Life e uma conversa real sobre a sua direcao.",
         "north": "You have energy but no aim. Begin with North to turn the vision into OKRs and a focused portfolio.",
         "torch": "You are building in the dark. Begin with Torch to get content out and build your public presence.",
         "maya": "Your days run you. Begin with Maya to install a daily rhythm and tame the inbox."

@@ -1,20 +1,18 @@
 <script setup lang="ts">
 const { t } = useI18n()
 
-// 12 domains in wheel order, each with its steward + accent color
+// Level 10 Life: 10 areas in wheel order, colored by group (self · people · work & money · world)
 const domains = [
-  { key: 'spirit', steward: 'Oracle', color: 'oklch(0.6 0.18 200)' },
-  { key: 'body', steward: 'Sage', color: 'oklch(0.55 0.2 310)' },
-  { key: 'mind', steward: 'Sage', color: 'oklch(0.55 0.2 310)' },
-  { key: 'family', steward: 'Bridge', color: 'oklch(0.65 0.18 55)' },
-  { key: 'friends', steward: 'Bridge', color: 'oklch(0.65 0.18 55)' },
-  { key: 'community', steward: 'Bridge', color: 'oklch(0.65 0.18 55)' },
-  { key: 'business', steward: 'North', color: 'oklch(0.65 0.15 80)' },
-  { key: 'work', steward: 'North', color: 'oklch(0.65 0.15 80)' },
-  { key: 'money', steward: 'North', color: 'oklch(0.65 0.15 80)' },
-  { key: 'growth', steward: 'Oracle', color: 'oklch(0.6 0.18 200)' },
-  { key: 'environment', steward: 'Sage', color: 'oklch(0.55 0.2 310)' },
-  { key: 'play', steward: 'Sage', color: 'oklch(0.55 0.2 310)' },
+  { key: 'health', color: 'oklch(0.55 0.2 310)' },
+  { key: 'growth', color: 'oklch(0.55 0.2 310)' },
+  { key: 'spirituality', color: 'oklch(0.55 0.2 310)' },
+  { key: 'romance', color: 'oklch(0.65 0.18 55)' },
+  { key: 'familyFriends', color: 'oklch(0.65 0.18 55)' },
+  { key: 'fun', color: 'oklch(0.65 0.18 55)' },
+  { key: 'career', color: 'oklch(0.65 0.15 80)' },
+  { key: 'finances', color: 'oklch(0.65 0.15 80)' },
+  { key: 'contribution', color: 'oklch(0.6 0.18 200)' },
+  { key: 'environment', color: 'oklch(0.6 0.18 200)' },
 ] as const
 
 const size = 360
@@ -29,8 +27,8 @@ function polar(r: number, angleDeg: number) {
   return { x: cx + r * Math.cos(a), y: cy + r * Math.sin(a) }
 }
 
-// each spoke is a wedge; placeholder score drives the fill radius (illustrative)
-const placeholderScores = [5, 6, 6, 7, 6, 7, 7, 8, 5, 6, 5, 4]
+// each area is a wedge; placeholder score drives the fill radius (illustrative)
+const placeholderScores = [6, 7, 5, 7, 6, 4, 7, 6, 6, 8]
 
 const wedges = computed(() =>
   domains.map((d, i) => {
@@ -51,7 +49,7 @@ const wedges = computed(() =>
       `A ${rInner} ${rInner} 0 ${largeArc} 0 ${p1.x} ${p1.y}`,
       'Z',
     ].join(' ')
-    const labelPos = polar(rOuter + 16, (start + end) / 2)
+    const labelPos = polar(rOuter + 10, (start + end) / 2)
     return { ...d, path, labelPos, score, mid: (start + end) / 2 }
   })
 )
@@ -70,7 +68,7 @@ const wedges = computed(() =>
       <div class="grid lg:grid-cols-2 gap-10 items-center">
         <!-- Wheel SVG -->
         <div class="flex justify-center">
-          <svg :viewBox="`0 0 ${size} ${size}`" class="w-full max-w-[420px] h-auto">
+          <svg :viewBox="`-70 -10 ${size + 140} ${size + 20}`" class="w-full max-w-[520px] h-auto">
             <!-- guide rings -->
             <circle :cx="cx" :cy="cy" :r="rOuter" fill="none" stroke="var(--color-border)" stroke-width="1" />
             <circle :cx="cx" :cy="cy" :r="(rOuter + rInner) / 2" fill="none" stroke="var(--color-border)" stroke-width="0.5" stroke-dasharray="2 4" />
@@ -81,7 +79,7 @@ const wedges = computed(() =>
             </g>
 
             <!-- center -->
-            <text :x="cx" :y="cy - 4" text-anchor="middle" class="fill-foreground" font-size="13" font-weight="700">12</text>
+            <text :x="cx" :y="cy - 4" text-anchor="middle" class="fill-foreground" font-size="13" font-weight="700">10</text>
             <text :x="cx" :y="cy + 12" text-anchor="middle" class="fill-muted-foreground" font-size="7">{{ t('lifeWheel.scoreLabel') }}</text>
 
             <!-- labels -->
@@ -90,7 +88,7 @@ const wedges = computed(() =>
               :key="`l-${w.key}`"
               :x="w.labelPos.x"
               :y="w.labelPos.y"
-              text-anchor="middle"
+              :text-anchor="w.labelPos.x > cx + 8 ? 'start' : w.labelPos.x < cx - 8 ? 'end' : 'middle'"
               dominant-baseline="middle"
               class="fill-muted-foreground"
               font-size="9"
@@ -98,24 +96,24 @@ const wedges = computed(() =>
           </svg>
         </div>
 
-        <!-- Facts + steward legend -->
+        <!-- Facts + area legend -->
         <div class="space-y-6">
           <div class="grid grid-cols-3 gap-4">
             <div class="bg-card border border-border rounded-xl p-4 text-center">
-              <div class="text-2xl font-bold text-primary">12</div>
-              <div class="text-xs text-muted-foreground mt-1">{{ t('lifeWheel.domains.spirit') }}…{{ t('lifeWheel.domains.play') }}</div>
+              <div class="text-2xl font-bold text-primary">10</div>
+              <div class="text-xs text-muted-foreground mt-1">{{ t('lifeWheel.areas') }}</div>
             </div>
             <div class="bg-card border border-border rounded-xl p-4 text-center">
               <div class="text-2xl font-bold text-primary">1–10</div>
               <div class="text-xs text-muted-foreground mt-1">{{ t('lifeWheel.rescore') }}</div>
             </div>
             <div class="bg-card border border-border rounded-xl p-4 text-center">
-              <div class="text-2xl font-bold text-primary">6+1</div>
-              <div class="text-xs text-muted-foreground mt-1">{{ t('lifeWheel.stewards') }}</div>
+              <div class="text-2xl font-bold text-primary">/100</div>
+              <div class="text-xs text-muted-foreground mt-1">{{ t('lifeWheel.owner') }}</div>
             </div>
           </div>
-          <p class="text-sm text-muted-foreground">{{ t('lifeWheel.stewardsNote') }}</p>
-          <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+          <p class="text-sm text-muted-foreground">{{ t('lifeWheel.note') }}</p>
+          <div class="grid grid-cols-2 gap-2">
             <div
               v-for="d in domains"
               :key="`legend-${d.key}`"
