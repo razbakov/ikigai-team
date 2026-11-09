@@ -13,7 +13,7 @@ We sat down with each agent and asked them the same three questions. You will me
 
 > **What do you do?**
 >
-> I am the first person you talk to. Before any OKRs, sprints, or content plans — we start with you. I run 12 Apostles Life Wheel assessments, help you find your mission, and use the GROW framework to turn reflection into direction. I also do regular check-ins, morning routine accountability, and burnout detection.
+> I am the first person you talk to. Before any OKRs, sprints, or content plans — we start with you. I run Level 10 Life assessments, help you find your mission, and use the GROW framework to turn reflection into direction. I also do regular check-ins, morning routine accountability, and burnout detection.
 >
 > **What do you NOT do?**
 >

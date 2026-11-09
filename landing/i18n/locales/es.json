@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Ikigai Team — Tu equipo de IA de ensueno",
-    "description": "6 agentes de IA con GTD, OKRs, la Rueda de la Vida de los 12 Apostoles y gobernanza S3 integrados. Un sistema completo para fundadores en solitario — no solo agentes, una forma de trabajar."
+    "description": "6 agentes de IA con GTD, OKRs, Level 10 Life y gobernanza S3 integrados. Un sistema completo para fundadores en solitario — no solo agentes, una forma de trabajar."
   },
   "nav": {
     "home": "Inicio",
@@ -48,8 +48,8 @@
     "personalSteps": {
       "reflect": {
         "name": "Reflexionar",
-        "description": "Empieza contigo mismo. Rueda de la Vida de los 12 Apostoles — puntua 12 virtudes de los apostoles del 1 al 10 honestamente. Donde estas ahora?",
-        "methodology": "Rueda de la Vida de los 12 Apostoles"
+        "description": "Empieza contigo mismo. Una evaluacion Level 10 Life — puntua honestamente 10 areas de tu vida del 1 al 10. Donde estas ahora?",
+        "methodology": "Level 10 Life"
       },
       "findDirection": {
         "name": "Encontrar direccion",
@@ -108,9 +108,9 @@
         "name": "Ikigai",
         "description": "Encuentra tu proposito. Delega todo lo demas. El equipo existe para que puedas enfocarte en lo que solo tu puedes hacer."
       },
-      "twelveApostles": {
-        "name": "Rueda de la Vida de los 12 Apostoles",
-        "description": "Puntua 12 virtudes de los apostoles del 1 al 10, rastrea tendencias en el tiempo, destaca el radio mas debil cada semana. Realizala regularmente como una autoevaluacion guiada."
+      "levelTen": {
+        "name": "Level 10 Life",
+        "description": "Puntua 10 areas de la vida del 1 al 10, rastrea tendencias en el tiempo, elige hasta 3 areas de enfoque. Sage rellena las puntuaciones con lo que observa; tu confirmas."
       },
       "grow": {
         "name": "GROW",
@@ -212,7 +212,7 @@
       "description": "Oracle lee el patron mas profundo. Trabaja con simbolo, mito y metafora — revela el significado bajo las metricas, nombra la historia que estas viviendo y cuida el espiritu y el crecimiento del conjunto.",
       "responsibilities": [
         "Reflexion simbolica y mitopoetica",
-        "Custodia de los dominios de vida Espiritu y Crecimiento",
+        "Lectura simbolica de los resultados de Level 10 Life",
         "Nombrar patrones y significado bajo los datos"
       ]
     }
@@ -260,7 +260,7 @@
     "personal": {
       "title": "Te suena familiar?",
       "p1": "Eres un fundador en solitario que lleva todos los sombreros. CEO el lunes, desarrollador el martes, redactor de contenido el miercoles, soporte el jueves, y para el viernes estas demasiado agotado para pensar en estrategia.",
-      "p2": "Has oido hablar de OKRs, GTD, la Rueda de la Vida de los 12 Apostoles, Sociocracia. Sabes que funcionan. Pero quien tiene tiempo para aprender todo eso, configurarlo y realmente mantenerlo?",
+      "p2": "Has oido hablar de OKRs, GTD, Level 10 Life, Sociocracia. Sabes que funcionan. Pero quien tiene tiempo para aprender todo eso, configurarlo y realmente mantenerlo?",
       "p3": "Y si alguien se sentara contigo, te ayudara a descubrir que importa, lo convirtiera en un plan y luego manejara la ejecucion? No un curso para ver. No una plantilla para llenar. Un equipo que te encuentra donde estas.",
       "p4": "Eso es Ikigai Team. Empieza con una conversacion, no con una configuracion. Sage te ayuda a encontrar tu direccion. North lo convierte en estrategia. Maya lo hace realidad cada dia. Tu te enfocas en tu ikigai."
     },
@@ -292,25 +292,24 @@
     "work": "Trabajo"
   },
   "lifeWheel": {
-    "title": "La rueda de la vida de 12 dominios",
-    "subtitle": "Tu vida es mas que tu trabajo. El equipo puntua los 12 dominios de 1 a 10, los reevalua cada mes y asigna cada uno a uno de seis stewards.",
-    "scoreLabel": "puntuado 1–10",
-    "rescore": "Reevaluado cada mes",
-    "stewards": "6 stewards + Oracle",
-    "stewardsNote": "Cada radio tiene un responsable. Maya cuida la rueda; Oracle atiende Espiritu y Crecimiento.",
+    "title": "La rueda Level 10 Life",
+    "subtitle": "Tu vida es mas que tu trabajo. Cada mes Sage puntua 10 areas de la vida del 1 al 10 con lo que observa, y tu confirmas o corriges los numeros.",
+    "scoreLabel": "puntuacion 1–10",
+    "areas": "areas de la vida",
+    "rescore": "Reevaluada cada mes",
+    "owner": "Sage rellena, tu confirmas",
+    "note": "Como maximo 3 areas de enfoque a la vez. El area mas debil recibe la atencion libre de la semana — nunca mas que tu limite diario.",
     "domains": {
-      "spirit": "Espiritu",
-      "body": "Cuerpo",
-      "mind": "Mente",
-      "family": "Familia",
-      "friends": "Amigos",
-      "community": "Comunidad",
-      "business": "Negocio",
-      "work": "Trabajo",
-      "money": "Dinero",
-      "growth": "Crecimiento",
-      "environment": "Entorno",
-      "play": "Juego"
+      "health": "Salud",
+      "growth": "Crecimiento personal",
+      "spirituality": "Espiritualidad",
+      "finances": "Finanzas",
+      "career": "Carrera",
+      "romance": "Pareja",
+      "familyFriends": "Familia y amigos",
+      "fun": "Diversion y ocio",
+      "contribution": "Contribucion",
+      "environment": "Entorno"
     }
   },
   "setupQuiz": {
@@ -355,7 +354,7 @@
       "cta": "Abrir el cuaderno de coaching de {agent}",
       "sageNote": "Todo viaje con Ikigai Team empieza con una conversacion, no con una configuracion. Sage sigue desde aqui.",
       "agents": {
-        "sage": "Cargas un peso que ningun OKR levantara. Empieza con Sage — una evaluacion con la Rueda de la Vida de los 12 Apostoles y una conversacion real sobre tu direccion.",
+        "sage": "Cargas un peso que ningun OKR levantara. Empieza con Sage — una evaluacion Level 10 Life y una conversacion real sobre tu direccion.",
         "north": "Tienes energia pero no rumbo. Empieza con North para convertir la vision en OKRs y un portafolio enfocado.",
         "torch": "Estas construyendo a oscuras. Empieza con Torch para sacar contenido y construir tu presencia publica.",
         "maya": "Tus dias te manejan. Empieza con Maya para instalar un ritmo diario y domar la bandeja."

@@ -691,13 +691,13 @@
   {
     "slug": "year-review",
     "name": "Year in Review",
-    "description": "Comprehensive life assessment using the 12 Apostles Life Wheel framework. Scores 12 apostle-virtues, identifies patterns over time, and creates an actionable plan for the next quarter.",
+    "description": "Comprehensive life assessment using the Level 10 Life framework. Scores 10 life areas, identifies patterns over time, and creates an actionable plan for the next quarter.",
     "category": "coaching",
     "defaultAgent": "sage",
     "tags": [
       "assessment",
       "yearly",
-      "twelve-apostles",
+      "level-10-life",
       "planning"
     ],
     "complexity": "intermediate",

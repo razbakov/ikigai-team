@@ -133,7 +133,7 @@ export const AGENTS: AgentDefinition[] = [
     description: 'Oracle reads the deeper pattern. She works in symbol, myth, and metaphor — surfacing meaning beneath the metrics, naming the story you are living, and tending the spirit and growth of the whole.',
     responsibilities: [
       'Symbolic and mythopoetic reflection',
-      'Spirit and Growth life-domain stewardship',
+      'Symbolic read of the Level 10 Life results',
       'Naming patterns and meaning beneath the data',
     ],
     s3Domain: 'Symbolic & Mythopoetic Counsel',

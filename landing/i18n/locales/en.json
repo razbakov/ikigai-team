@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Ikigai Team — Your AI Dream Team",
-    "description": "6 AI agents with built-in GTD, OKRs, the 12 Apostles Life Wheel, and S3 governance. A complete system for solo founders — not just agents, a way of working."
+    "description": "6 AI agents with built-in GTD, OKRs, Level 10 Life, and S3 governance. A complete system for solo founders — not just agents, a way of working."
   },
   "nav": {
     "home": "Home",
@@ -52,8 +52,8 @@
     "personalSteps": {
       "reflect": {
         "name": "Reflect",
-        "description": "Start with yourself. A 12 Apostles Life Wheel assessment — score 12 apostle-virtues 1-10 honestly. Where are you right now?",
-        "methodology": "12 Apostles Life Wheel"
+        "description": "Start with yourself. A Level 10 Life assessment — score 10 areas of your life 1-10 honestly. Where are you right now?",
+        "methodology": "Level 10 Life"
       },
       "findDirection": {
         "name": "Find Direction",
@@ -112,9 +112,9 @@
         "name": "Ikigai",
         "description": "Find your purpose. Delegate everything else. The team exists so you can focus on what only you can do."
       },
-      "twelveApostles": {
-        "name": "12 Apostles Life Wheel",
-        "description": "Score 12 apostle-virtues 1-10, track trends over time, surface the weakest spoke each week. Run regularly as a guided self-assessment."
+      "levelTen": {
+        "name": "Level 10 Life",
+        "description": "Score 10 life areas 1-10, track trends over time, pick up to 3 focus areas. Sage pre-fills the scores from what it sees; you confirm."
       },
       "grow": {
         "name": "GROW",
@@ -216,7 +216,7 @@
       "description": "Oracle reads the deeper pattern. She works in symbol, myth, and metaphor — surfacing meaning beneath the metrics, naming the story you are living, and tending the spirit and growth of the whole.",
       "responsibilities": [
         "Symbolic and mythopoetic reflection",
-        "Spirit and Growth life-domain stewardship",
+        "Symbolic read of the Level 10 Life results",
         "Naming patterns and meaning beneath the data"
       ]
     }
@@ -264,7 +264,7 @@
     "personal": {
       "title": "Sound Familiar?",
       "p1": "You are a solo founder wearing all the hats. CEO on Monday, developer on Tuesday, content writer on Wednesday, support on Thursday, and by Friday you are too exhausted to think about strategy.",
-      "p2": "You have heard of OKRs, GTD, the 12 Apostles Life Wheel, Sociocracy. You know they work. But who has time to learn all that, set it up, and actually stick with it?",
+      "p2": "You have heard of OKRs, GTD, Level 10 Life, Sociocracy. You know they work. But who has time to learn all that, set it up, and actually stick with it?",
       "p3": "What if someone sat down with you, helped you figure out what matters, turned it into a plan, and then handled the execution? Not a course to watch. Not a template to fill out. A team that meets you where you are and teaches you as you go.",
       "p4": "That is Ikigai Team. It starts with a conversation, not a configuration. Sage helps you find your direction. North turns it into strategy. Maya makes it happen every day. You focus on your ikigai — the thing only you can do."
     },
@@ -292,25 +292,24 @@
     "madeBy": "Made by"
   },
   "lifeWheel": {
-    "title": "The 12-Domain Life Wheel",
-    "subtitle": "Your life is more than your work. The team scores all 12 domains 1–10, re-scores monthly, and routes each to one of six stewards.",
+    "title": "The Level 10 Life Wheel",
+    "subtitle": "Your life is more than your work. Sage scores 10 life areas 1–10 every month from what it sees, and you confirm or correct the numbers.",
     "scoreLabel": "scored 1–10",
+    "areas": "life areas",
     "rescore": "Re-scored monthly",
-    "stewards": "6 stewards + Oracle",
-    "stewardsNote": "Each spoke has an owner. Maya keeps the wheel; Oracle tends Spirit and Growth.",
+    "owner": "Sage pre-fills, you confirm",
+    "note": "Up to 3 focus areas at a time. The weakest area gets the week's spare attention — never more than your daily cap.",
     "domains": {
-      "spirit": "Spirit",
-      "body": "Body",
-      "mind": "Mind",
-      "family": "Family",
-      "friends": "Friends",
-      "community": "Community",
-      "business": "Business",
-      "work": "Work",
-      "money": "Money",
-      "growth": "Growth",
-      "environment": "Environment",
-      "play": "Play"
+      "health": "Health",
+      "growth": "Personal Growth",
+      "spirituality": "Spirituality",
+      "finances": "Finances",
+      "career": "Career",
+      "romance": "Romance",
+      "familyFriends": "Family & Friends",
+      "fun": "Fun & Recreation",
+      "contribution": "Contribution",
+      "environment": "Environment"
     }
   },
   "setupQuiz": {
@@ -355,7 +354,7 @@
       "cta": "Open {agent}'s coaching notebook",
       "sageNote": "Every Ikigai Team journey begins with a conversation, not a configuration. Sage takes it from here.",
       "agents": {
-        "sage": "You are carrying weight that no OKR will lift. Begin with Sage — a 12 Apostles Life Wheel assessment and a real conversation about direction.",
+        "sage": "You are carrying weight that no OKR will lift. Begin with Sage — a Level 10 Life assessment and a real conversation about direction.",
         "north": "You have energy but no aim. Begin with North to turn the vision into OKRs and a focused portfolio.",
         "torch": "You are building in the dark. Begin with Torch to get content out and build your public presence.",
         "maya": "Your days run you. Begin with Maya to install a daily rhythm and tame the inbox."

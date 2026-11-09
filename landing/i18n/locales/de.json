@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Ikigai Team — Dein KI-Traumteam",
-    "description": "6 KI-Agenten mit integriertem GTD, OKRs, dem Lebensrad der 12 Apostel und S3-Governance. Ein komplettes System fur Einzelgrunder — nicht nur Agenten, eine Arbeitsweise."
+    "description": "6 KI-Agenten mit integriertem GTD, OKRs, Level 10 Life und S3-Governance. Ein komplettes System fur Einzelgrunder — nicht nur Agenten, eine Arbeitsweise."
   },
   "nav": {
     "home": "Startseite",
@@ -48,8 +48,8 @@
     "personalSteps": {
       "reflect": {
         "name": "Reflektieren",
-        "description": "Beginne bei dir selbst. Lebensrad der 12 Apostel — bewerte 12 Apostel-Tugenden von 1-10 ehrlich. Wo stehst du gerade?",
-        "methodology": "Lebensrad der 12 Apostel"
+        "description": "Beginne bei dir selbst. Eine Level 10 Life Bewertung — bewerte 10 Lebensbereiche ehrlich von 1-10. Wo stehst du gerade?",
+        "methodology": "Level 10 Life"
       },
       "findDirection": {
         "name": "Richtung finden",
@@ -108,9 +108,9 @@
         "name": "Ikigai",
         "description": "Finde deinen Zweck. Delegiere alles andere. Das Team existiert, damit du dich auf das konzentrieren kannst, was nur du tun kannst."
       },
-      "twelveApostles": {
-        "name": "Lebensrad der 12 Apostel",
-        "description": "Bewerte 12 Apostel-Tugenden von 1-10, verfolge Trends uber die Zeit, hebe jede Woche die schwachste Speiche hervor. Regelmasig als gefuhrte Selbsteinschatzung durchfuhren."
+      "levelTen": {
+        "name": "Level 10 Life",
+        "description": "Bewerte 10 Lebensbereiche von 1-10, verfolge Trends uber die Zeit, wahle bis zu 3 Fokusbereiche. Sage fullt die Werte aus dem vor, was es sieht; du bestatigst."
       },
       "grow": {
         "name": "GROW",
@@ -212,7 +212,7 @@
       "description": "Oracle liest das tiefere Muster. Sie arbeitet mit Symbol, Mythos und Metapher — bringt Bedeutung unter den Metriken hervor, benennt die Geschichte, die du lebst, und pflegt Geist und Wachstum des Ganzen.",
       "responsibilities": [
         "Symbolische und mythopoetische Reflexion",
-        "Stewardship der Lebensbereiche Geist und Wachstum",
+        "Symbolische Deutung der Level 10 Life Ergebnisse",
         "Muster und Bedeutung hinter den Daten benennen"
       ]
     }
@@ -260,7 +260,7 @@
     "personal": {
       "title": "Kommt dir das bekannt vor?",
       "p1": "Du bist ein Einzelgrunder, der alle Hute tragt. CEO am Montag, Entwickler am Dienstag, Content-Autor am Mittwoch, Support am Donnerstag, und am Freitag bist du zu erschopft, um uber Strategie nachzudenken.",
-      "p2": "Du hast von OKRs, GTD, dem Lebensrad der 12 Apostel, Soziokratie gehort. Du weisst, dass sie funktionieren. Aber wer hat die Zeit, das alles zu lernen, einzurichten und tatsachlich durchzuhalten?",
+      "p2": "Du hast von OKRs, GTD, Level 10 Life, Soziokratie gehort. Du weisst, dass sie funktionieren. Aber wer hat die Zeit, das alles zu lernen, einzurichten und tatsachlich durchzuhalten?",
       "p3": "Was wenn jemand sich mit dir hinsetzt, dir hilft herauszufinden was wichtig ist, es in einen Plan verwandelt und dann die Umsetzung ubernimmt? Kein Kurs zum Anschauen. Keine Vorlage zum Ausfullen. Ein Team, das dich dort abholt wo du bist.",
       "p4": "Das ist Ikigai Team. Es beginnt mit einem Gesprach, nicht mit einer Konfiguration. Sage hilft dir deine Richtung zu finden. North verwandelt es in Strategie. Maya setzt es jeden Tag um. Du konzentrierst dich auf dein Ikigai."
     },
@@ -292,25 +292,24 @@
     "work": "Arbeit"
   },
   "lifeWheel": {
-    "title": "Das 12-Bereiche-Lebensrad",
-    "subtitle": "Dein Leben ist mehr als deine Arbeit. Das Team bewertet alle 12 Bereiche von 1–10, bewertet monatlich neu und ordnet jeden einem von sechs Stewards zu.",
+    "title": "Das Level 10 Life Rad",
+    "subtitle": "Dein Leben ist mehr als deine Arbeit. Sage bewertet jeden Monat 10 Lebensbereiche von 1–10 aus dem, was es sieht, und du bestatigst oder korrigierst die Werte.",
     "scoreLabel": "Bewertung 1–10",
+    "areas": "Lebensbereiche",
     "rescore": "Monatlich neu bewertet",
-    "stewards": "6 Stewards + Oracle",
-    "stewardsNote": "Jede Speiche hat einen Owner. Maya hutet das Rad; Oracle pflegt Geist und Wachstum.",
+    "owner": "Sage fullt vor, du bestatigst",
+    "note": "Hochstens 3 Fokusbereiche gleichzeitig. Der schwachste Bereich bekommt die freie Aufmerksamkeit der Woche — nie mehr als dein Tageslimit.",
     "domains": {
-      "spirit": "Geist",
-      "body": "Korper",
-      "mind": "Verstand",
-      "family": "Familie",
-      "friends": "Freunde",
-      "community": "Gemeinschaft",
-      "business": "Business",
-      "work": "Arbeit",
-      "money": "Geld",
-      "growth": "Wachstum",
-      "environment": "Umfeld",
-      "play": "Spiel"
+      "health": "Gesundheit",
+      "growth": "Personliches Wachstum",
+      "spirituality": "Spiritualitat",
+      "finances": "Finanzen",
+      "career": "Karriere",
+      "romance": "Partnerschaft",
+      "familyFriends": "Familie & Freunde",
+      "fun": "Spass & Freizeit",
+      "contribution": "Beitrag",
+      "environment": "Umfeld"
     }
   },
   "setupQuiz": {
@@ -355,7 +354,7 @@
       "cta": "{agent}s Coaching-Notebook offnen",
       "sageNote": "Jede Ikigai-Team-Reise beginnt mit einem Gesprach, nicht mit einer Konfiguration. Sage ubernimmt ab hier.",
       "agents": {
-        "sage": "Du tragst Gewicht, das kein OKR hebt. Beginne mit Sage — eine Bewertung mit dem Lebensrad der 12 Apostel und ein echtes Gesprach uber Richtung.",
+        "sage": "Du tragst Gewicht, das kein OKR hebt. Beginne mit Sage — eine Level 10 Life Bewertung und ein echtes Gesprach uber Richtung.",
         "north": "Du hast Energie, aber kein Ziel. Beginne mit North, um die Vision in OKRs und ein fokussiertes Portfolio zu verwandeln.",
         "torch": "Du baust im Dunkeln. Beginne mit Torch, um Content rauszubringen und deine Prasenz aufzubauen.",
         "maya": "Deine Tage steuern dich. Beginne mit Maya, um einen Tagesrhythmus zu installieren und das Postfach zu zahmen."

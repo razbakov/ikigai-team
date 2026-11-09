@@ -67,7 +67,7 @@ Sage asks what changed, what would make today meaningful, and whether you are al
 
 > "Let us do a life assessment"
 
-Sage runs a 12 Apostles Life Wheel scoring — 12 apostle-virtues, 1-10 each — and helps you pick focus spokes.
+Sage runs a Level 10 Life scoring — 10 life areas, 1-10 each — and helps you pick up to 3 focus areas.
 
 > "I have been skipping my morning routine"
 

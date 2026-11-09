@@ -4,7 +4,7 @@ const { path } = usePath()
 
 const personalMethods = [
   { key: 'ikigai', icon: 'lucide:compass', color: 'text-purple-500' },
-  { key: 'twelveApostles', icon: 'lucide:radar', color: 'text-green-500' },
+  { key: 'levelTen', icon: 'lucide:radar', color: 'text-green-500' },
   { key: 'grow', icon: 'lucide:route', color: 'text-pink-500' },
   { key: 'okrs', icon: 'lucide:target', color: 'text-yellow-500' },
   { key: 'gtd', icon: 'lucide:inbox', color: 'text-cyan-500' },
