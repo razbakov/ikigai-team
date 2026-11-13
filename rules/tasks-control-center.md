@@ -20,6 +20,15 @@ How work gets tracked across all your projects without dropping anything.
 - "To review" means deliverables are in the PR — the PR body must link to every artifact (files, URLs, deployed preview).
 - Prefer closing issues via `Closes #N` in PR bodies (auto-closes on merge and moves the card to Done).
 
+### Keep the issue current while you work on it
+
+Whenever you work on an issue (Linear, GitHub, or any tracker), the issue itself must show where the work stands — the Commander reads the tracker, not your session.
+
+- **Status:** move it when the work moves. Starting → In Progress. PR opened or result delivered → the "delivered, waiting for review" state (e.g. In Review / To review). Blocked → say so on the issue. Never set the final Done state unless the instance config allows it.
+- **Comment when needed** — when there is something a reader of the issue would want: the PR or deliverable link, a finding that changes the scope or plan, a blocker and what unblocks it, a decision you made and why, or what is left undone. Keep it short and factual.
+- **Don't comment** routine progress noise ("started", "still working") — the status already says that.
+- Do this as part of the work, in the same session, not as a follow-up.
+
 ### Tasks vs personal action items
 
 - **GitHub Issues** (Control Center board) = delegated or cross-session work. Anything an agent picks up. Anything that needs an S3 body, a PR, a deliverable. **This is the system queue.**
