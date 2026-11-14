@@ -28,7 +28,7 @@ Whenever you work on an issue (Linear, GitHub, or any tracker), the issue itself
 - **Comment when needed** — when there is something a reader of the issue would want: the PR or deliverable link, a finding that changes the scope or plan, a blocker and what unblocks it, a decision you made and why, or what is left undone. Keep it short and factual.
 - **Don't comment** routine progress noise ("started", "still working") — the status already says that.
 - Do this as part of the work, in the same session, not as a follow-up.
-- **Say who holds it.** When a chat or session (not an automated dispatcher) takes an issue to In Progress, mark that on the issue: a label such as `in-chat`, a link back to the session, and the Commander as assignee. Remove the marker when the work is delivered or handed over. A stopped session leaves a handover comment (where the work is, what's next) and returns the issue to the ready state. Otherwise an In Progress issue can't be traced to whoever is working on it.
+- **Say who holds it.** Every In Progress issue carries a link back to the session working on it, whether that's a chat or an automated dispatcher's run. A chat (not a dispatcher) also adds a label such as `in-chat` and sets the Commander as assignee. Remove the marker when the work is delivered or handed over. A stopped session leaves a handover comment (where the work is, what's next) and returns the issue to the ready state. Otherwise an In Progress issue can't be traced to whoever is working on it.
 
 ### Tasks vs personal action items
 
